@@ -1,12 +1,15 @@
 import subprocess
 import threading
 
+import concurrent.futures
 import matplotlib.pyplot as plt
+
+MAX_THREADS = 32
 
 def run_dig_command(ip_address, doh_ips, non_doh_ips):
     command = f"dig @{ip_address} +https"
     try:
-        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=5) 
+        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=5)
         print("DoH implémenté pour l'adresse IP:", ip_address)
         doh_ips.append(ip_address)
     except subprocess.TimeoutExpired:
@@ -22,16 +25,15 @@ def main():
     non_doh_ips = []
     threads = []
 
-    with open('../List/nameservers.txt', 'r') as file:
-        for line in file:
-            ip_address = line.strip()
-            if ip_address:
-                thread = threading.Thread(target=run_dig_command, args=(ip_address, doh_ips, non_doh_ips))
-                thread.start()
-                threads.append(thread)
+    with open('../List/nameservers-all.txt', 'r') as file:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+            for line in file:
+                ip_address = line.strip()
+                if ip_address:
+                    thread = executor.submit(run_dig_command, ip_address, doh_ips, non_doh_ips)
+                    threads.append(thread)
 
-    for thread in threads:
-        thread.join()
+            concurrent.futures.wait(threads)
 
     labels = ['DoH Implémenté', 'DoH Non Implémenté']
     sizes = [len(doh_ips), len(non_doh_ips)]
