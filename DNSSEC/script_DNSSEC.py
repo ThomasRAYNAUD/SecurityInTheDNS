@@ -1,7 +1,10 @@
 import subprocess
 import threading
 
+import concurrent.futures
 import matplotlib.pyplot as plt
+
+MAX_THREADS = 32
 
 def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips):
     command = f"dig @{ip_address} +dnssec dnssectest.sidn.nl "
@@ -26,15 +29,14 @@ def main():
     threads = []
 
     with open('./List/nameservers.txt', 'r') as file:
-        for line in file:
-            ip_address = line.strip()
-            if ip_address:
-                thread = threading.Thread(target=run_dig_command, args=(ip_address, dnssec_ips, non_dnssec_ips))
-                thread.start()
-                threads.append(thread)
-
-    for thread in threads :
-        thread.join()
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+            for line in file:
+                ip_address = line.strip()
+                if ip_address:
+                    thread = executor.submit(run_dig_command, ip_address, dnssec_ips, non_dnssec_ips)
+                    threads.append(thread)
+            
+            concurrent.futures.wait(threads)
 
     labels = ['DNSSEC Implémenté', 'DNSSEC Non Implémenté']
     sizes = [len(dnssec_ips), len(non_dnssec_ips)]
