@@ -1,13 +1,14 @@
 import subprocess
-import threading
-
+import concurrent.futures
 import matplotlib.pyplot as plt
+
+MAX_THREADS = 100
 
 def run_dig_command(ip_address, dot_ips, non_dot_ips):
     command = f"dig @{ip_address} +tls -p 853"
     try:
         result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=5) 
-        print("DoT implémenté pour l'adresse IP:", ip_address)
+        print("Va tester :", ip_address)
         dot_ips.append(ip_address)
     except subprocess.TimeoutExpired:
         print("Timeout occurred while executing command for", ip_address)
@@ -22,16 +23,15 @@ def main():
     non_dot_ips = []
     threads = []
 
-    with open('../List/nameservers.txt', 'r') as file:
-        for line in file:
-            ip_address = line.strip()
-            if ip_address:
-                thread = threading.Thread(target=run_dig_command, args=(ip_address, dot_ips, non_dot_ips))
-                thread.start()
-                threads.append(thread)
+    with open('../List/nameservers-all.txt', 'r') as file:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+            for line in file:
+                ip_address = line.strip()
+                if ip_address:
+                    thread = executor.submit(run_dig_command, ip_address, dot_ips, non_dot_ips)
+                    threads.append(thread)
 
-    for thread in threads:
-        thread.join()
+            concurrent.futures.wait(threads)
 
     labels = ['DoT Implémenté', 'DoT Non Implémenté']
     sizes = [len(dot_ips), len(non_dot_ips)]
