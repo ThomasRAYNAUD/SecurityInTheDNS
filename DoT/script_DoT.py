@@ -7,7 +7,7 @@ MAX_THREADS = 100
 def run_dig_command(ip_address, dot_ips, non_dot_ips):
     command = f"dig @{ip_address} +tls -p 853"
     try:
-        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=5) 
+        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=3) 
         print("Va tester :", ip_address)
         dot_ips.append(ip_address)
     except subprocess.TimeoutExpired:
@@ -23,7 +23,7 @@ def main():
     non_dot_ips = []
     threads = []
 
-    with open('../List/nameservers-all.txt', 'r') as file:
+    with open('../List/updated_list/nameservers.txt', 'r') as file:
         with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
             for line in file:
                 ip_address = line.strip()

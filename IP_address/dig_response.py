@@ -4,10 +4,10 @@ from concurrent.futures import ThreadPoolExecutor
 MAX_THREADS = 200
 
 def reponse(ip):
-    command = f"dig @{ip}"
+    command = f"dig @{ip} +tls -p 853"
     print(f"Checking {ip}")
     try:
-        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=3)
+        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=1)
         return False
     except subprocess.TimeoutExpired:
         return True
@@ -30,6 +30,6 @@ def filter_private_ips(file_path):
 file_path = "./public_address.txt"
 filtered_ips = filter_private_ips(file_path)
 
-with open("public_address_v2.txt", 'w') as file:
+with open("public_address_DOT.txt", 'w') as file:
     for ip in filtered_ips:
         file.write(ip + '\n')
