@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 MAX_THREADS = 1000
 
-def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips):
+def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips, test):
     command = f"dig @{ip_address} dnssectest.sidn.nl"
     try:
         result = subprocess.run(command, shell=True, capture_output=True, timeout = 5)
@@ -16,6 +16,7 @@ def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips):
         if "ad" in portion :
             print("DNSSEC implémenté pour l'adresse IP:", ip_address)
             dnssec_ips.append(ip_address)
+            test +=1
 
     except subprocess.TimeoutExpired:
         print("Timeout ocurred while executing command for", ip_address)
@@ -33,12 +34,12 @@ def main():
     non_dnssec_ips = []
     threads = []
 
-    with open('../IP_address/public_address.txt', 'r') as file:
+    with open('../IP_address/public_address_v2.txt', 'r') as file:
         with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
             for line in file:
                 ip_address = line.strip()
                 if ip_address:
-                    thread = executor.submit(run_dig_command, ip_address, dnssec_ips, non_dnssec_ips)
+                    thread = executor.submit(run_dig_command, ip_address, dnssec_ips, non_dnssec_ips, test)
                     threads.append(thread)
             
             concurrent.futures.wait(threads)
