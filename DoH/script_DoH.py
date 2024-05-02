@@ -23,7 +23,7 @@ def main():
     non_doh_ips = []
     threads = []
 
-    with open('../List/nameservers-all.txt', 'r') as file:
+    with open('../List/updated_list/nameservers_complet.txt', 'r') as file:
         with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
             for line in file:
                 ip_address = line.strip()
