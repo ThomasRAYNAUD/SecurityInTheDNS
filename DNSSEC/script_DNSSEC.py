@@ -6,14 +6,14 @@ import matplotlib.pyplot as plt
 
 MAX_THREADS = 1000
 
-def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips, test):
+def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips):
     command = f"dig @{ip_address} dnssectest.sidn.nl"
     try:
         result = subprocess.run(command, shell=True, capture_output=True, timeout = 5)
-        if "flags: qr rd ra" in result.stdout.decode():
-            test += 1
-
-        if "flags: qr rd ra ad" in result.stdout.decode() :
+        indice_début = result.stdout.decode().find("flags:") + len("flag:")
+        indice_fin = result.stdout.decode().find(";", indice_début)
+        portion = result.stdout.decode()[indice_début : indice_fin].strip()
+        if "ad" in portion :
             print("DNSSEC implémenté pour l'adresse IP:", ip_address)
             dnssec_ips.append(ip_address)
 
