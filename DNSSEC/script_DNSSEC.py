@@ -4,14 +4,18 @@ import threading
 import concurrent.futures
 import matplotlib.pyplot as plt
 
-MAX_THREADS = 32
+MAX_THREADS = 1000
 
-def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips):
-    command = f"dig @{ip_address} +dnssec dnssectest.sidn.nl "
+def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips, test):
+    command = f"dig @{ip_address} dnssectest.sidn.nl"
     try:
         result = subprocess.run(command, shell=True, capture_output=True, timeout = 5)
-        print("DNSSEC implémenté pour l'adresse IP:", ip_address)
-        dnssec_ips.append(ip_address)
+        if "flags: qr rd ra" in result.stdout.decode():
+            test += 1
+
+        if "flags: qr rd ra ad" in result.stdout.decode() :
+            print("DNSSEC implémenté pour l'adresse IP:", ip_address)
+            dnssec_ips.append(ip_address)
 
     except subprocess.TimeoutExpired:
         print("Timeout ocurred while executing command for", ip_address)
@@ -24,11 +28,12 @@ def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips):
 
 
 def main():
+    test = 0
     dnssec_ips = []
     non_dnssec_ips = []
     threads = []
 
-    with open('./List/nameservers.txt', 'r') as file:
+    with open('../IP_address/public_address.txt', 'r') as file:
         with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
             for line in file:
                 ip_address = line.strip()
@@ -38,6 +43,7 @@ def main():
             
             concurrent.futures.wait(threads)
 
+    print(test)
     labels = ['DNSSEC Implémenté', 'DNSSEC Non Implémenté']
     sizes = [len(dnssec_ips), len(non_dnssec_ips)]
     colors = ['green', 'red']
