@@ -8,8 +8,10 @@ def run_dig_command(ip_address, doh_ips, non_doh_ips):
     command = f"dig @{ip_address} +https"
     try:
         result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=5)
-        print("Va tester :", ip_address)
-        doh_ips.append(ip_address)
+        #si la réponse ne contient pas "TLS error"
+        if "->>HEADER<<-" in result.stdout:
+            print("DoH implémenté pour l'adresse IP:", ip_address)
+            doh_ips.append(ip_address)
     except subprocess.TimeoutExpired:
         print("Timeout occurred while executing command for", ip_address)
         print("DoH non implémenté pour l'adresse IP:", ip_address)

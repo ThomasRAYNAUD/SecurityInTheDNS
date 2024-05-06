@@ -8,15 +8,13 @@ def run_dig_command(ip_address, dot_ips, non_dot_ips):
     command = f"dig @{ip_address} +tls -p 853"
     try:
         result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=3) 
-        print("Va tester :", ip_address)
-        dot_ips.append(ip_address)
+        if "->>HEADER<<-" in result.stdout:
+            print("DoH implémenté pour l'adresse IP:", ip_address)
+            dot_ips.append(ip_address)
     except subprocess.TimeoutExpired:
-        print("Timeout occurred while executing command for", ip_address)
-        print("DoT non implémenté pour l'adresse IP:", ip_address)
         non_dot_ips.append(ip_address)
     except subprocess.CalledProcessError as e:
         print(f"Error occurred while executing command for {ip_address}: {e}")
-        print("DoT non implémenté pour l'adresse IP:", ip_address)
 
 def main():
     dot_ips = []

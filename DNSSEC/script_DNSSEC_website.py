@@ -1,11 +1,9 @@
 import subprocess
-import threading
 import csv
-
 import concurrent.futures
 import matplotlib.pyplot as plt
 
-MAX_THREADS = 1000
+MAX_THREADS = 10
 
 def run_dig_command(website, dnssec_web, non_dnssec_web, test):
     command = f"dig @1.1.1.1 +dnssec {website}"
@@ -18,7 +16,7 @@ def run_dig_command(website, dnssec_web, non_dnssec_web, test):
             test += 1
             print("DNSSEC implémenté pour le site web:", website)
             dnssec_web.append(website)
-     
+
 
     except subprocess.TimeoutExpired:
         print("Timeout ocurred while executing command for", website)
