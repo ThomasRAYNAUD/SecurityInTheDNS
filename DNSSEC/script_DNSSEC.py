@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 
 MAX_THREADS = 100
 
-def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips, test):
+def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips):
     command = f"dig @{ip_address} dnssectest.sidn.nl"
     try:
-        result = subprocess.run(command, shell=True, capture_output=True, timeout = 5)
+        result = subprocess.run(command, shell=True, capture_output=True, timeout = 2)
         indice_début = result.stdout.decode().find("flags:") + len("flag:")
         indice_fin = result.stdout.decode().find(";", indice_début)
         portion = result.stdout.decode()[indice_début : indice_fin].strip()
@@ -36,7 +36,7 @@ def main():
     non_dnssec_ips = []
     threads = []
 
-    with open('../IP_address/public_address_v2.txt', 'r') as file:
+    with open('../List/updated_list/nameservers_complet.txt', 'r') as file:
         with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
             for line in file:
                 ip_address = line.strip()

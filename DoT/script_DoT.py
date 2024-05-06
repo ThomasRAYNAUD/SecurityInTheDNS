@@ -7,7 +7,7 @@ MAX_THREADS = 100
 def run_dig_command(ip_address, dot_ips, non_dot_ips):
     command = f"dig @{ip_address} +tls -p 853"
     try:
-        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=5) 
+        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=3) 
         print("Va tester :", ip_address)
         dot_ips.append(ip_address)
     except subprocess.TimeoutExpired:
