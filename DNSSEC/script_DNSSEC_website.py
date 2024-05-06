@@ -42,7 +42,7 @@ def main():
             for ligne in reader:
                 website = ligne[0]
                 if website:
-                    thread = executor.submit(run_dig_command, website, dnssec_web, non_dnssec_web, test)
+                    thread = executor.submit(run_dig_command, website, dnssec_web, non_dnssec_web)
                     threads.append(thread)
             
             concurrent.futures.wait(threads)

@@ -17,6 +17,9 @@ def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips, test):
             print("DNSSEC implémenté pour l'adresse IP:", ip_address)
             dnssec_ips.append(ip_address)
             test +=1
+        else :
+            print("DNSSEC non implémenté pour l'adresse IP: ", ip_address)
+            non_dnssec_ips.append(ip_address)
 
     except subprocess.TimeoutExpired:
         print("Timeout ocurred while executing command for", ip_address)
@@ -29,7 +32,6 @@ def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips, test):
 
 
 def main():
-    test = 0
     dnssec_ips = []
     non_dnssec_ips = []
     threads = []
@@ -39,12 +41,11 @@ def main():
             for line in file:
                 ip_address = line.strip()
                 if ip_address:
-                    thread = executor.submit(run_dig_command, ip_address, dnssec_ips, non_dnssec_ips, test)
+                    thread = executor.submit(run_dig_command, ip_address, dnssec_ips, non_dnssec_ips)
                     threads.append(thread)
             
             concurrent.futures.wait(threads)
 
-    print(test)
     labels = ['DNSSEC Implémenté', 'DNSSEC Non Implémenté']
     sizes = [len(dnssec_ips), len(non_dnssec_ips)]
     colors = ['green', 'red']
