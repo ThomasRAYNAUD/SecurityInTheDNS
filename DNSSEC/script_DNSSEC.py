@@ -49,7 +49,7 @@ def main():
     sizes = [len(dnssec_ips), len(non_dnssec_ips)]
     colors = ['green', 'red']
     explode = (0.1, 0) 
-    plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
+    plt.hist(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
     plt.axis('equal') 
     plt.title('Implémentation de DNSSEC')
     plt.show()

@@ -1,5 +1,4 @@
 import subprocess
-import threading
 import csv
 
 import concurrent.futures
