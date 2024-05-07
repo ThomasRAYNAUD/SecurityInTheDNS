@@ -49,11 +49,21 @@ def main():
             
     labels = ['DNSSEC Implémenté', 'DNSSEC Non Implémenté']
     sizes = [len(dnssec_web), len(non_dnssec_web)]
+    total = len(dnssec_web) + len(non_dnssec_web)
+    pourcentages = [len(dnssec_web)/total*100, len(non_dnssec_web)/total*100]
     colors = ['green', 'red']
-    explode = (0.1, 0) 
-    plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
-    plt.axis('equal') 
-    plt.title('Implémentation de DNSSEC')
+    rects = plt.bar(labels, sizes, color=colors)
+    plt.ylabel('Nombre de sites web')
+    plt.title("Implémentation de DNSSEC sur les 1000 sites les plus visités selon le ranking d'Alexa")
+    i = 0
+    for rect in rects:
+        height = rect.get_height()
+        plt.annotate(f'{pourcentages[i]:.1f}%',
+            xy=(rect.get_x() + rect.get_width() / 2, height),
+            xytext=(0, 3),  # Décalage de 3 points au-dessus de la barre
+            textcoords="offset points",
+            ha='center', va='bottom')
+        i += 1
     plt.show()
 
 if __name__ == "__main__":
