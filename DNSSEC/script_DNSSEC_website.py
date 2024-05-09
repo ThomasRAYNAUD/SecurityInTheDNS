@@ -42,10 +42,14 @@ def main():
             for ligne in reader:
                 website = ligne[0]
                 if website:
-                    thread = executor.submit(run_dig_command, website, dnssec_web, non_dnssec_web, test)
+                    thread = executor.submit(run_dig_command, website, dnssec_web, non_dnssec_web)
                     threads.append(thread)
             
             concurrent.futures.wait(threads)
+
+    with open("../List/updated_list/DNSSEC_WEBSITES.txt", "w") as file:
+        for website in dnssec_web:
+            file.write(website + "\n")
             
     labels = ['DNSSEC Implémenté', 'DNSSEC Non Implémenté']
     sizes = [len(dnssec_web), len(non_dnssec_web)]
