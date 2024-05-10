@@ -75,30 +75,36 @@ only_DoH = list_DoH - list_DoT
 only_DoT = list_DoT - list_DoH
 
 # Adresses présentes dans C mais pas dans A ni B
-uniquement_C = list_all - list_DoH - list_DoT
+non_securise = list_all - list_DoH - list_DoT
 
 # Adresses présentes à la fois dans A et B
 list_DoT_DoH = list_DoH.intersection(list_DoT)
 
+# faire la somme des only_DoH, only_DoT et only_C pour vérifier que la somme est égale à list_all
+somme = len(only_DoH) + len(only_DoT) + len(list_DoT_DoH)
+
 # Définition des données
-categories = ['Serveurs mettant uniquement en place DoH', 
-              'Serveurs mettant uniquement en place DoT', 
-              'Serveurs mettant en place DoT et DoH',
-              'Serveurs qui ne mettent pas en place DoT et DoH']
-counts = [len(only_DoH), len(only_DoT), len(list_DoT_DoH), len(uniquement_C)]
+categories = ['Résolveurs implémentant DoH', 
+              'Résolveurs implémentant DoT',
+              'Résolveurs implémentant DoH et DoT',]
+counts = [len(only_DoH), len(only_DoT), len(list_DoT_DoH)]
+
+# Calcul des pourcentages
+total = sum(counts)
+percentages = [count / total * 100 for count in counts]
 
 # Création de l'histogramme
 plt.figure(figsize=(10, 6))
-bars = plt.bar(categories, counts, color=['lightcoral', 'lightskyblue', 'lightgreen', 'gold'])
+bars = plt.bar(categories, percentages, color=['lightblue', 'lightcoral', 'lightgreen'])
 
-# Ajout des chiffres exacts au-dessus des barres sinon ne pas mettre pour avoir des % ages
-for bar, count in zip(bars, counts):
-    plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height(), str(count), 
+# Ajout des pourcentages au-dessus des barres
+for bar, percent in zip(bars, percentages):
+    plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height(), f"{percent:.1f}%", 
              ha='center', va='bottom', fontsize=10)
 
-plt.xlabel('Présences ou pas de DoT et DoH')
-plt.ylabel('Nombre d\'adresses IP')
-plt.title('Répartition des adresses IP')
+plt.xlabel('Sécurité des résolveurs DNS')
+plt.ylabel('Pourcentage des résolveurs DNS')
+plt.title('Analyse comparative : Sécurité des Résolveurs DNS (DoT et DoH)')
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
 plt.show()

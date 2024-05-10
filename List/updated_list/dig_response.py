@@ -27,10 +27,10 @@ def filter_private_ips(file_path):
 
     return filtered_ips
 
-file_path = "../../List/updated_list/nameservers.txt"
+file_path = "./nameservers.txt"
 filtered_ips = filter_private_ips(file_path)
 i=0
-with open("../../List/updated_list/nameservers_complet.txt", 'w') as file:
+with open("./nameservers_complet.txt", 'w') as file:
     for ip in filtered_ips:
         i+=1
         file.write(ip + "\n")

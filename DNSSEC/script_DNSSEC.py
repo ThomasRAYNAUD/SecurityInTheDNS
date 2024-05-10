@@ -4,7 +4,7 @@ import threading
 import concurrent.futures
 import matplotlib.pyplot as plt
 
-MAX_THREADS = 1000
+MAX_THREADS = 100
 
 def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips, test):
     command = f"dig @{ip_address} dnssectest.sidn.nl"

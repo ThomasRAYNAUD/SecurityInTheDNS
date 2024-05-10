@@ -3,9 +3,13 @@ import csv
 import concurrent.futures
 import matplotlib.pyplot as plt
 
+<<<<<<< HEAD
 MAX_THREADS = 10
+=======
+MAX_THREADS = 100
+>>>>>>> f6fecd55fd2b2e21c7fd53bf1040aaa9b0e841f2
 
-def run_dig_command(website, dnssec_web, non_dnssec_web, test):
+def run_dig_command(website, dnssec_web, non_dnssec_web):
     command = f"dig @1.1.1.1 +dnssec {website}"
     try:
         result = subprocess.run(command, shell=True, capture_output=True, timeout = 5)
@@ -13,10 +17,15 @@ def run_dig_command(website, dnssec_web, non_dnssec_web, test):
         indice_fin = result.stdout.decode().find(";", indice_début)
         portion = result.stdout.decode()[indice_début : indice_fin].strip()
         if "ad" in portion :
-            test += 1
             print("DNSSEC implémenté pour le site web:", website)
             dnssec_web.append(website)
+<<<<<<< HEAD
 
+=======
+        else :
+            print("DNSSEC non implémenté pour le site web: ", website)
+            non_dnssec_web.append(website)
+>>>>>>> f6fecd55fd2b2e21c7fd53bf1040aaa9b0e841f2
 
     except subprocess.TimeoutExpired:
         print("Timeout ocurred while executing command for", website)
@@ -32,7 +41,6 @@ def main():
     dnssec_web = []
     non_dnssec_web = []
     threads = []
-    test = 0
 
     with open("../List/websites.csv", "r", encoding='utf-8') as f :
         reader = csv.reader(f,delimiter = ',')
@@ -44,7 +52,7 @@ def main():
                     threads.append(thread)
             
             concurrent.futures.wait(threads)
-    print(test)
+            
     labels = ['DNSSEC Implémenté', 'DNSSEC Non Implémenté']
     sizes = [len(dnssec_web), len(non_dnssec_web)]
     colors = ['green', 'red']
