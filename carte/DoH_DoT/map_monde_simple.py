@@ -14,8 +14,6 @@ if __name__ == "__main__":
                     lat = j['lat']
                     lon = j['lon']
                     if j['DoT'] == "Yes" and j['DoH'] == "Yes":
-                        # marker de taille plus petit 
-                        
                         folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: Yes\nDoH: Yes", icon=folium.Icon(color='green')).add_to(ma_carte)
                     elif j['DoT'] == "Yes" and j['DoH'] == "No":
                         folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: Yes\nDoH: No", icon=folium.Icon(color='blue')).add_to(ma_carte)
