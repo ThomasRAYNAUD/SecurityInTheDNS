@@ -15,11 +15,14 @@ if __name__ == "__main__":
                     lat = j['lat']
                     lon = j['lon']
                     if j['eDNS'] == "eDNS0":
+                        
                         folium.Marker([lat, lon],popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='green')).add_to(ma_carte)
+                        
                     elif j['eDNS'] == "No padding":
                         folium.Marker([lat, lon],popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='red')).add_to(ma_carte)
                     elif j['eDNS'] == "Other padding":
                         folium.Marker([lat, lon],popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='blue')).add_to(ma_carte)
+
                 else:
                     v += 1
     legende = f"""
@@ -38,5 +41,4 @@ if __name__ == "__main__":
     </div>
     """
     ma_carte.get_root().html.add_child(folium.Element(legende))
-    ma_carte.save('carte_v2.html')
-    
+    ma_carte.save('basic_map.html')
