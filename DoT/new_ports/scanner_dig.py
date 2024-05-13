@@ -1,37 +1,46 @@
 import subprocess
+import json
 import concurrent.futures
-import matplotlib.pyplot as plt
 
-MAX_THREADS = 50
+MAX_THREADS = 40
+PORTS_PER_THREAD = 257  # Diviser le nombre total de ports par le nombre de threads
 
-def run_dig_command(ip_address, dot_ips, non_dot_ips):
-    command = f"echo | openssl s_client -connect {ip_address}:443 | openssl x509 -noout -text"  # 2064       720      tls-probe 8.8.8.8 443           dig @8.8.8.8 +https
-    try:
-        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=2) 
-        if "Certificate" in result.stdout:
-            print(result.stdout)
-            dot_ips.append(ip_address)
-    except subprocess.TimeoutExpired:
-        non_dot_ips.append(ip_address)
-    except subprocess.CalledProcessError as e:
-        print(f"Error occurred while executing command for {ip_address}: {e}")
+def run_dig_command(ip_address, port_range):
+    result = []
+    for port in port_range:
+        command = f"dig @{ip_address} +tls -p {port}"
+        print(f"Port: {port}")
+        try:
+            output = subprocess.check_output(command, shell=True, text=True, timeout=1)
+            if "->>HEADER<<-" in output:
+                result.append(port)
+        except subprocess.TimeoutExpired:
+            continue
+        except subprocess.CalledProcessError as e:
+            continue
+    return ip_address, result
 
-def main():
-    dot_ips = []
+def main(ip_address):
+    dot_ips = {}
     non_dot_ips = []
-    threads = []
+    port_ranges = [(start_port, start_port + PORTS_PER_THREAD) for start_port in range(1, 65536, PORTS_PER_THREAD)]
+    futures = [executor.submit(run_dig_command, ip_address, range(start, end)) for start, end in port_ranges] # Créer une liste de futures pour chaque plage de ports
+    for future in concurrent.futures.as_completed(futures): # Parcourir les futures dès qu'ils sont terminés
+        ip_address, result = future.result()
+        if result:
+            with open('output.json', 'w') as json_file:
+                json.dump({"dot_ips": dot_ips, "non_dot_ips": non_dot_ips}, json_file, indent=4)
+            return ip_address, result
+    return ip_address, None
 
-    with open('../../List/updated_list/nameservers_complet.txt', 'r') as file:
-        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+
+if __name__ == "__main__":
+    with open('./address.txt', 'r') as file:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_THREADS) as executor: 
             for line in file:
                 ip_address = line.strip()
-                if ip_address:
-                    thread = executor.submit(run_dig_command, ip_address, dot_ips, non_dot_ips)
-                    threads.append(thread)
+                test1, test2 = main(ip_address)
+                print(test1, test2)
+                
 
-            concurrent.futures.wait(threads)
-
-    print(f"IP addresses with DoT: {len(dot_ips)}")
-    print(dot_ips)
-if __name__ == "__main__":
-    main()
+    
