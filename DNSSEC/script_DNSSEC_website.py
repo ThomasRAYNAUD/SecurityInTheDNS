@@ -3,11 +3,7 @@ import csv
 import concurrent.futures
 import matplotlib.pyplot as plt
 
-<<<<<<< HEAD
-MAX_THREADS = 10
-=======
 MAX_THREADS = 100
->>>>>>> f6fecd55fd2b2e21c7fd53bf1040aaa9b0e841f2
 
 def run_dig_command(website, dnssec_web, non_dnssec_web):
     command = f"dig @1.1.1.1 +dnssec {website}"
@@ -19,13 +15,9 @@ def run_dig_command(website, dnssec_web, non_dnssec_web):
         if "ad" in portion :
             print("DNSSEC implémenté pour le site web:", website)
             dnssec_web.append(website)
-<<<<<<< HEAD
-
-=======
         else :
             print("DNSSEC non implémenté pour le site web: ", website)
             non_dnssec_web.append(website)
->>>>>>> f6fecd55fd2b2e21c7fd53bf1040aaa9b0e841f2
 
     except subprocess.TimeoutExpired:
         print("Timeout ocurred while executing command for", website)
@@ -48,19 +40,32 @@ def main():
             for ligne in reader:
                 website = ligne[0]
                 if website:
-                    thread = executor.submit(run_dig_command, website, dnssec_web, non_dnssec_web, test)
+                    thread = executor.submit(run_dig_command, website, dnssec_web, non_dnssec_web)
                     threads.append(thread)
             
             concurrent.futures.wait(threads)
             
     labels = ['DNSSEC Implémenté', 'DNSSEC Non Implémenté']
     sizes = [len(dnssec_web), len(non_dnssec_web)]
+    total = len(dnssec_web) + len(non_dnssec_web)
+    pourcentages = [len(dnssec_web)/total*100, len(non_dnssec_web)/total*100]
     colors = ['green', 'red']
-    explode = (0.1, 0) 
-    plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
-    plt.axis('equal') 
-    plt.title('Implémentation de DNSSEC')
+
+    rects = plt.bar(labels, sizes, color=colors)
+    plt.ylabel('Nombre de domaines')
+    plt.title('Implémentation de DNSSEC sur les différents résolveurs')
+    i = 0
+    for rect in rects:
+        height = rect.get_height()
+        plt.annotate(f'{pourcentages[i]:.1f}%',
+            xy=(rect.get_x() + rect.get_width() / 2, height),
+            xytext=(0, 3),  # Décalage de 3 points au-dessus de la barre
+            textcoords="offset points",
+            ha='center', va='bottom')
+        i += 1
+
     plt.show()
+
 
 if __name__ == "__main__":
     print("Starting script")
