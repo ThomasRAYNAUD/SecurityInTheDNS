@@ -49,6 +49,7 @@ def main():
     total = len(dnssec_ips) + len(non_dnssec_ips)
     pourcentages = [len(dnssec_ips)/total*100, len(non_dnssec_ips)/total*100]
     colors = ['green', 'red']
+
     rects = plt.bar(labels, sizes, color=colors)
     plt.ylabel('Nombre de résolveurs')
     plt.title('Implémentation de DNSSEC sur les différents résolveurs')
@@ -61,6 +62,7 @@ def main():
             textcoords="offset points",
             ha='center', va='bottom')
         i += 1
+
     plt.show()
 
 if __name__ == "__main__":

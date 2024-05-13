@@ -1,11 +1,13 @@
 import subprocess
-import threading
 import csv
-
 import concurrent.futures
 import matplotlib.pyplot as plt
 
+<<<<<<< HEAD
+MAX_THREADS = 10
+=======
 MAX_THREADS = 100
+>>>>>>> f6fecd55fd2b2e21c7fd53bf1040aaa9b0e841f2
 
 def run_dig_command(website, dnssec_web, non_dnssec_web):
     command = f"dig @1.1.1.1 +dnssec {website}"
@@ -17,9 +19,13 @@ def run_dig_command(website, dnssec_web, non_dnssec_web):
         if "ad" in portion :
             print("DNSSEC implémenté pour le site web:", website)
             dnssec_web.append(website)
+<<<<<<< HEAD
+
+=======
         else :
             print("DNSSEC non implémenté pour le site web: ", website)
             non_dnssec_web.append(website)
+>>>>>>> f6fecd55fd2b2e21c7fd53bf1040aaa9b0e841f2
 
     except subprocess.TimeoutExpired:
         print("Timeout ocurred while executing command for", website)
