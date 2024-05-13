@@ -1,5 +1,4 @@
 import subprocess
-
 import concurrent.futures
 import matplotlib.pyplot as plt
 
@@ -15,7 +14,8 @@ def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips):
         if "ad" in portion :
             print("DNSSEC implémenté pour l'adresse IP:", ip_address)
             dnssec_ips.append(ip_address)
-        else : 
+            test +=1
+        else :
             print("DNSSEC non implémenté pour l'adresse IP: ", ip_address)
             non_dnssec_ips.append(ip_address)
 

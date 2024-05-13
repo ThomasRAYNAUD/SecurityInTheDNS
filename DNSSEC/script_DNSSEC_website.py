@@ -50,10 +50,11 @@ def main():
     total = len(dnssec_web) + len(non_dnssec_web)
     pourcentages = [len(dnssec_web)/total*100, len(non_dnssec_web)/total*100]
     colors = ['green', 'red']
-
+    
     rects = plt.bar(labels, sizes, color=colors)
     plt.ylabel('Nombre de domaines')
-    plt.title('Implémentation de DNSSEC sur les différents résolveurs')
+    plt.title("Implémentation de DNSSEC sur les 1000 domaines les plus visités selon le ranking d'Alexa")
+
     i = 0
     for rect in rects:
         height = rect.get_height()
@@ -63,7 +64,6 @@ def main():
             textcoords="offset points",
             ha='center', va='bottom')
         i += 1
-
     plt.show()
 
 

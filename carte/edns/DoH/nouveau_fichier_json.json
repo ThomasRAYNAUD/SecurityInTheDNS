@@ -1,0 +1,7702 @@
+{
+    "1": [
+        {
+            "ip": "1.0.0.2",
+            "orgName": "APNIC Research and Development",
+            "lat": -27.4766,
+            "lon": 153.0166,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "2": [
+        {
+            "ip": "1.0.0.3",
+            "orgName": "APNIC Research and Development",
+            "lat": -27.4766,
+            "lon": 153.0166,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "3": [
+        {
+            "ip": "1.1.1.1",
+            "orgName": "APNIC Research and Development",
+            "lat": -27.4766,
+            "lon": 153.0166,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "4": [
+        {
+            "ip": "1.1.1.2",
+            "orgName": "APNIC Research and Development",
+            "lat": -27.4766,
+            "lon": 153.0166,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "5": [
+        {
+            "ip": "1.1.1.3",
+            "orgName": "APNIC Research and Development",
+            "lat": -27.4766,
+            "lon": 153.0166,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "6": [
+        {
+            "ip": "103.196.38.38",
+            "orgName": "Mach Dilemma, LLC",
+            "lat": 37.7771,
+            "lon": -122.406,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "7": [
+        {
+            "ip": "103.86.96.100",
+            "orgName": "unknown",
+            "lat": -33.8715,
+            "lon": 151.2006,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "8": [
+        {
+            "ip": "103.86.99.100",
+            "orgName": "unknown",
+            "lat": 1.31384,
+            "lon": 103.816,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "9": [
+        {
+            "ip": "109.248.149.133",
+            "orgName": "unknown",
+            "lat": 56.9496,
+            "lon": 24.0978,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "10": [
+        {
+            "ip": "134.255.247.23",
+            "orgName": "RIPE Network Coordination Centre",
+            "lat": 49.7581,
+            "lon": 9.80693,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "11": [
+        {
+            "ip": "135.125.191.156",
+            "orgName": "RIPE Network Coordination Centre",
+            "lat": 50.3878,
+            "lon": 8.07286,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "12": [
+        {
+            "ip": "138.201.81.119",
+            "orgName": "RIPE Network Coordination Centre",
+            "lat": 50.475,
+            "lon": 12.365,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "13": [
+        {
+            "ip": "146.112.41.2",
+            "orgName": "RIPE Network Coordination Centre",
+            "lat": 40.6543,
+            "lon": -75.5034,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "14": [
+        {
+            "ip": "146.112.41.4",
+            "orgName": "RIPE Network Coordination Centre",
+            "lat": 40.6543,
+            "lon": -75.5034,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "15": [
+        {
+            "ip": "146.70.66.227",
+            "orgName": "RIPE Network Coordination Centre",
+            "lat": 44.4268,
+            "lon": 26.1025,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "16": [
+        {
+            "ip": "146.70.82.3",
+            "orgName": "RIPE Network Coordination Centre",
+            "lat": 50.0956,
+            "lon": 8.77608,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "17": [
+        {
+            "ip": "149.112.112.10",
+            "orgName": "Quad9",
+            "lat": 47.3733,
+            "lon": 8.53113,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "18": [
+        {
+            "ip": "149.112.112.11",
+            "orgName": "Quad9",
+            "lat": 47.3733,
+            "lon": 8.53113,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "19": [
+        {
+            "ip": "149.112.112.112",
+            "orgName": "Quad9",
+            "lat": 47.3733,
+            "lon": 8.53113,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "20": [
+        {
+            "ip": "149.112.122.10",
+            "orgName": "CIRA Canadian Internet Registration Authority Autorit Canadienne pour les enregistrements Internet",
+            "lat": 43.6532,
+            "lon": -79.3832,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "21": [
+        {
+            "ip": "149.112.122.20",
+            "orgName": "CIRA Canadian Internet Registration Authority Autorit Canadienne pour les enregistrements Internet",
+            "lat": 43.6532,
+            "lon": -79.3832,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "22": [
+        {
+            "ip": "149.112.122.30",
+            "orgName": "CIRA Canadian Internet Registration Authority Autorit Canadienne pour les enregistrements Internet",
+            "lat": 43.6532,
+            "lon": -79.3832,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "23": [
+        {
+            "ip": "151.80.222.79",
+            "orgName": "unknown",
+            "lat": 50.6974,
+            "lon": 3.178,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "24": [
+        {
+            "ip": "155.254.21.250",
+            "orgName": "H4Y Technologies LLC",
+            "lat": 35.2369,
+            "lon": -80.8957,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "25": [
+        {
+            "ip": "162.14.21.178",
+            "orgName": "Asia Pacific Network Information Centre",
+            "lat": 39.9786,
+            "lon": 116.302,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "26": [
+        {
+            "ip": "162.14.21.56",
+            "orgName": "Asia Pacific Network Information Centre",
+            "lat": 39.9786,
+            "lon": 116.302,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "27": [
+        {
+            "ip": "162.159.36.1",
+            "orgName": "Cloudflare, Inc.",
+            "lat": 43.6532,
+            "lon": -79.3832,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "28": [
+        {
+            "ip": "162.159.46.1",
+            "orgName": "Cloudflare, Inc.",
+            "lat": 43.6532,
+            "lon": -79.3832,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "29": [
+        {
+            "ip": "165.231.253.163",
+            "orgName": "African Network Information Center",
+            "lat": 28.652,
+            "lon": 77.1663,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "30": [
+        {
+            "ip": "168.95.1.1",
+            "orgName": "Asia Pacific Network Information Centre",
+            "lat": 24.9493,
+            "lon": 121.337,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "31": [
+        {
+            "ip": "168.95.192.1",
+            "orgName": "Asia Pacific Network Information Centre",
+            "lat": 25.0689,
+            "lon": 121.591,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "32": [
+        {
+            "ip": "173.234.56.115",
+            "orgName": "Leaseweb USA, Inc.",
+            "lat": 41.874,
+            "lon": -88.0038,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "33": [
+        {
+            "ip": "177.54.145.131",
+            "orgName": "unknown",
+            "lat": -23.5335,
+            "lon": -46.6359,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "34": [
+        {
+            "ip": "178.254.22.166",
+            "orgName": "unknown",
+            "lat": 52.5233,
+            "lon": 13.3426,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "35": [
+        {
+            "ip": "18.254.96.167",
+            "orgName": "Amazon Technologies Inc.",
+            "lat": 39.0438,
+            "lon": -77.4874,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "36": [
+        {
+            "ip": "185.183.106.83",
+            "orgName": "unknown",
+            "lat": 40.4332,
+            "lon": -3.62431,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "37": [
+        {
+            "ip": "185.246.188.51",
+            "orgName": "unknown",
+            "lat": 52.3667,
+            "lon": 4.89454,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "38": [
+        {
+            "ip": "185.247.225.17",
+            "orgName": "unknown",
+            "lat": 44.4291,
+            "lon": 26.1006,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "39": [
+        {
+            "ip": "185.43.135.1",
+            "orgName": "unknown",
+            "lat": 50.0791,
+            "lon": 14.4513,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "40": [
+        {
+            "ip": "193.135.142.1",
+            "orgName": "unknown",
+            "lat": 47.4823,
+            "lon": 8.4823,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "41": [
+        {
+            "ip": "193.135.143.1",
+            "orgName": "unknown",
+            "lat": 47.4823,
+            "lon": 8.4823,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "42": [
+        {
+            "ip": "193.135.143.11",
+            "orgName": "unknown",
+            "lat": 47.4823,
+            "lon": 8.4823,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "43": [
+        {
+            "ip": "193.135.143.13",
+            "orgName": "unknown",
+            "lat": 47.4823,
+            "lon": 8.4823,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "44": [
+        {
+            "ip": "193.135.143.15",
+            "orgName": "unknown",
+            "lat": 47.4823,
+            "lon": 8.4823,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "45": [
+        {
+            "ip": "193.135.143.252",
+            "orgName": "unknown",
+            "lat": 47.4823,
+            "lon": 8.4823,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "46": [
+        {
+            "ip": "193.135.143.7",
+            "orgName": "unknown",
+            "lat": 47.4823,
+            "lon": 8.4823,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "47": [
+        {
+            "ip": "193.17.47.1",
+            "orgName": "unknown",
+            "lat": 50.0791,
+            "lon": 14.4513,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "48": [
+        {
+            "ip": "193.37.255.227",
+            "orgName": "unknown",
+            "lat": 48.1482,
+            "lon": 17.1067,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "49": [
+        {
+            "ip": "197.155.92.20",
+            "orgName": "Liquid Telecommunications Operations Limited",
+            "lat": -1.2841,
+            "lon": 36.8155,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "50": [
+        {
+            "ip": "197.155.92.21",
+            "orgName": "Liquid Telecommunications Operations Limited",
+            "lat": -1.2841,
+            "lon": 36.8155,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "51": [
+        {
+            "ip": "198.54.117.10",
+            "orgName": "Namecheap, Inc.",
+            "lat": 33.7488,
+            "lon": -84.3877,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "52": [
+        {
+            "ip": "198.54.117.11",
+            "orgName": "Namecheap, Inc.",
+            "lat": 33.7488,
+            "lon": -84.3877,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "53": [
+        {
+            "ip": "198.60.22.2",
+            "orgName": "unknown",
+            "lat": 39.321,
+            "lon": -111.094,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "54": [
+        {
+            "ip": "198.60.22.22",
+            "orgName": "unknown",
+            "lat": 39.321,
+            "lon": -111.094,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "55": [
+        {
+            "ip": "198.7.58.227",
+            "orgName": "Leaseweb USA, Inc.",
+            "lat": 38.7514,
+            "lon": -77.5251,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "56": [
+        {
+            "ip": "208.184.237.45",
+            "orgName": "Zayo Bandwidth",
+            "lat": 37.1835,
+            "lon": -121.7714,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "57": [
+        {
+            "ip": "208.67.220.2",
+            "orgName": "Cisco OpenDNS, LLC",
+            "lat": 43.6532,
+            "lon": -79.3832,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "58": [
+        {
+            "ip": "208.67.222.222",
+            "orgName": "Cisco OpenDNS, LLC",
+            "lat": 38.811,
+            "lon": -91.0332,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "59": [
+        {
+            "ip": "216.238.98.60",
+            "orgName": "The Constant Company, LLC",
+            "lat": -23.5312,
+            "lon": -46.7901,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "60": [
+        {
+            "ip": "217.0.43.50",
+            "orgName": "unknown",
+            "lat": 52.3759,
+            "lon": 9.73201,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "61": [
+        {
+            "ip": "217.138.219.219",
+            "orgName": "unknown",
+            "lat": 45.4643,
+            "lon": 9.18951,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "62": [
+        {
+            "ip": "217.138.220.243",
+            "orgName": "unknown",
+            "lat": 50.0559,
+            "lon": 14.4945,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "63": [
+        {
+            "ip": "217.160.166.161",
+            "orgName": "unknown",
+            "lat": 48.9921,
+            "lon": 8.40221,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "64": [
+        {
+            "ip": "217.160.70.42",
+            "orgName": "unknown",
+            "lat": 48.9921,
+            "lon": 8.40221,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "65": [
+        {
+            "ip": "223.6.6.6",
+            "orgName": "unknown",
+            "lat": 30.2994,
+            "lon": 120.1612,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "66": [
+        {
+            "ip": "23.19.245.84",
+            "orgName": "Leaseweb USA, Inc.",
+            "lat": 40.5211,
+            "lon": -74.3474,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "67": [
+        {
+            "ip": "23.19.245.88",
+            "orgName": "Leaseweb USA, Inc.",
+            "lat": 40.5211,
+            "lon": -74.3474,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "68": [
+        {
+            "ip": "37.120.142.115",
+            "orgName": "unknown",
+            "lat": 41.3751,
+            "lon": 2.13889,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "69": [
+        {
+            "ip": "37.120.152.235",
+            "orgName": "unknown",
+            "lat": 42.6977,
+            "lon": 23.3219,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "70": [
+        {
+            "ip": "37.120.193.219",
+            "orgName": "unknown",
+            "lat": 44.8266,
+            "lon": 20.4062,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "71": [
+        {
+            "ip": "37.120.207.131",
+            "orgName": "unknown",
+            "lat": 41.8885,
+            "lon": 12.5065,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "72": [
+        {
+            "ip": "37.120.211.91",
+            "orgName": "unknown",
+            "lat": 52.269,
+            "lon": 20.9864,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "73": [
+        {
+            "ip": "37.120.235.187",
+            "orgName": "unknown",
+            "lat": 53.331,
+            "lon": -6.36252,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "74": [
+        {
+            "ip": "37.228.132.139",
+            "orgName": "unknown",
+            "lat": 49.3704,
+            "lon": 8.77164,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "75": [
+        {
+            "ip": "45.67.219.208",
+            "orgName": "unknown",
+            "lat": 34.0726,
+            "lon": -118.261,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "76": [
+        {
+            "ip": "45.90.28.1",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "77": [
+        {
+            "ip": "45.90.28.10",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "78": [
+        {
+            "ip": "45.90.28.101",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "79": [
+        {
+            "ip": "45.90.28.102",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "80": [
+        {
+            "ip": "45.90.28.103",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "81": [
+        {
+            "ip": "45.90.28.104",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "82": [
+        {
+            "ip": "45.90.28.105",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "83": [
+        {
+            "ip": "45.90.28.106",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "84": [
+        {
+            "ip": "45.90.28.107",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "85": [
+        {
+            "ip": "45.90.28.108",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "86": [
+        {
+            "ip": "45.90.28.109",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "87": [
+        {
+            "ip": "45.90.28.11",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "88": [
+        {
+            "ip": "45.90.28.110",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "89": [
+        {
+            "ip": "45.90.28.111",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "90": [
+        {
+            "ip": "45.90.28.112",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "91": [
+        {
+            "ip": "45.90.28.113",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "92": [
+        {
+            "ip": "45.90.28.114",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "93": [
+        {
+            "ip": "45.90.28.115",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "94": [
+        {
+            "ip": "45.90.28.116",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "95": [
+        {
+            "ip": "45.90.28.117",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "96": [
+        {
+            "ip": "45.90.28.118",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "97": [
+        {
+            "ip": "45.90.28.119",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "98": [
+        {
+            "ip": "45.90.28.12",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "99": [
+        {
+            "ip": "45.90.28.120",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "100": [
+        {
+            "ip": "45.90.28.121",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "101": [
+        {
+            "ip": "45.90.28.122",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "102": [
+        {
+            "ip": "45.90.28.123",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "103": [
+        {
+            "ip": "45.90.28.124",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "104": [
+        {
+            "ip": "45.90.28.125",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "105": [
+        {
+            "ip": "45.90.28.126",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "106": [
+        {
+            "ip": "45.90.28.127",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "107": [
+        {
+            "ip": "45.90.28.128",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "108": [
+        {
+            "ip": "45.90.28.129",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "109": [
+        {
+            "ip": "45.90.28.13",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "110": [
+        {
+            "ip": "45.90.28.130",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "111": [
+        {
+            "ip": "45.90.28.131",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "112": [
+        {
+            "ip": "45.90.28.132",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "113": [
+        {
+            "ip": "45.90.28.133",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "114": [
+        {
+            "ip": "45.90.28.134",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "115": [
+        {
+            "ip": "45.90.28.135",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "116": [
+        {
+            "ip": "45.90.28.136",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "117": [
+        {
+            "ip": "45.90.28.137",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "118": [
+        {
+            "ip": "45.90.28.138",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "119": [
+        {
+            "ip": "45.90.28.139",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "120": [
+        {
+            "ip": "45.90.28.14",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "121": [
+        {
+            "ip": "45.90.28.140",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "122": [
+        {
+            "ip": "45.90.28.141",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "123": [
+        {
+            "ip": "45.90.28.142",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "124": [
+        {
+            "ip": "45.90.28.143",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "125": [
+        {
+            "ip": "45.90.28.144",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "126": [
+        {
+            "ip": "45.90.28.145",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "127": [
+        {
+            "ip": "45.90.28.146",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "128": [
+        {
+            "ip": "45.90.28.147",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "129": [
+        {
+            "ip": "45.90.28.148",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "130": [
+        {
+            "ip": "45.90.28.149",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "131": [
+        {
+            "ip": "45.90.28.15",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "132": [
+        {
+            "ip": "45.90.28.150",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "133": [
+        {
+            "ip": "45.90.28.151",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "134": [
+        {
+            "ip": "45.90.28.152",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "135": [
+        {
+            "ip": "45.90.28.153",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "136": [
+        {
+            "ip": "45.90.28.154",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "137": [
+        {
+            "ip": "45.90.28.155",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "138": [
+        {
+            "ip": "45.90.28.156",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "139": [
+        {
+            "ip": "45.90.28.157",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "140": [
+        {
+            "ip": "45.90.28.158",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "141": [
+        {
+            "ip": "45.90.28.159",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "142": [
+        {
+            "ip": "45.90.28.16",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "143": [
+        {
+            "ip": "45.90.28.160",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "144": [
+        {
+            "ip": "45.90.28.161",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "145": [
+        {
+            "ip": "45.90.28.162",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "146": [
+        {
+            "ip": "45.90.28.163",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "147": [
+        {
+            "ip": "45.90.28.164",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "148": [
+        {
+            "ip": "45.90.28.165",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "149": [
+        {
+            "ip": "45.90.28.166",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "150": [
+        {
+            "ip": "45.90.28.167",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "151": [
+        {
+            "ip": "45.90.28.168",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "152": [
+        {
+            "ip": "45.90.28.169",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "153": [
+        {
+            "ip": "45.90.28.17",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "154": [
+        {
+            "ip": "45.90.28.170",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "155": [
+        {
+            "ip": "45.90.28.171",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "156": [
+        {
+            "ip": "45.90.28.172",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "157": [
+        {
+            "ip": "45.90.28.173",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "158": [
+        {
+            "ip": "45.90.28.174",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "159": [
+        {
+            "ip": "45.90.28.175",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "160": [
+        {
+            "ip": "45.90.28.176",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "161": [
+        {
+            "ip": "45.90.28.177",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "162": [
+        {
+            "ip": "45.90.28.178",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "163": [
+        {
+            "ip": "45.90.28.179",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "164": [
+        {
+            "ip": "45.90.28.18",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "165": [
+        {
+            "ip": "45.90.28.180",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "166": [
+        {
+            "ip": "45.90.28.181",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "167": [
+        {
+            "ip": "45.90.28.182",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "168": [
+        {
+            "ip": "45.90.28.183",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "169": [
+        {
+            "ip": "45.90.28.184",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "170": [
+        {
+            "ip": "45.90.28.185",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "171": [
+        {
+            "ip": "45.90.28.186",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "172": [
+        {
+            "ip": "45.90.28.187",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "173": [
+        {
+            "ip": "45.90.28.188",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "174": [
+        {
+            "ip": "45.90.28.189",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "175": [
+        {
+            "ip": "45.90.28.19",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "176": [
+        {
+            "ip": "45.90.28.190",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "177": [
+        {
+            "ip": "45.90.28.191",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "178": [
+        {
+            "ip": "45.90.28.192",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "179": [
+        {
+            "ip": "45.90.28.193",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "180": [
+        {
+            "ip": "45.90.28.195",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "181": [
+        {
+            "ip": "45.90.28.196",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "182": [
+        {
+            "ip": "45.90.28.197",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "183": [
+        {
+            "ip": "45.90.28.198",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "184": [
+        {
+            "ip": "45.90.28.199",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "185": [
+        {
+            "ip": "45.90.28.2",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "186": [
+        {
+            "ip": "45.90.28.20",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "187": [
+        {
+            "ip": "45.90.28.200",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "188": [
+        {
+            "ip": "45.90.28.201",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "189": [
+        {
+            "ip": "45.90.28.202",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "190": [
+        {
+            "ip": "45.90.28.203",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "191": [
+        {
+            "ip": "45.90.28.204",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "192": [
+        {
+            "ip": "45.90.28.206",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "193": [
+        {
+            "ip": "45.90.28.207",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "194": [
+        {
+            "ip": "45.90.28.209",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "195": [
+        {
+            "ip": "45.90.28.21",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "196": [
+        {
+            "ip": "45.90.28.210",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "197": [
+        {
+            "ip": "45.90.28.211",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "198": [
+        {
+            "ip": "45.90.28.212",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "199": [
+        {
+            "ip": "45.90.28.213",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "200": [
+        {
+            "ip": "45.90.28.214",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "201": [
+        {
+            "ip": "45.90.28.215",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "202": [
+        {
+            "ip": "45.90.28.216",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "203": [
+        {
+            "ip": "45.90.28.217",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "204": [
+        {
+            "ip": "45.90.28.218",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "205": [
+        {
+            "ip": "45.90.28.219",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "206": [
+        {
+            "ip": "45.90.28.22",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "207": [
+        {
+            "ip": "45.90.28.220",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "208": [
+        {
+            "ip": "45.90.28.221",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "209": [
+        {
+            "ip": "45.90.28.222",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "210": [
+        {
+            "ip": "45.90.28.223",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "211": [
+        {
+            "ip": "45.90.28.224",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "212": [
+        {
+            "ip": "45.90.28.225",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "213": [
+        {
+            "ip": "45.90.28.226",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "214": [
+        {
+            "ip": "45.90.28.227",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "215": [
+        {
+            "ip": "45.90.28.228",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "216": [
+        {
+            "ip": "45.90.28.229",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "217": [
+        {
+            "ip": "45.90.28.23",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "218": [
+        {
+            "ip": "45.90.28.230",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "219": [
+        {
+            "ip": "45.90.28.231",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "220": [
+        {
+            "ip": "45.90.28.232",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "221": [
+        {
+            "ip": "45.90.28.233",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "222": [
+        {
+            "ip": "45.90.28.234",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "223": [
+        {
+            "ip": "45.90.28.235",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "224": [
+        {
+            "ip": "45.90.28.236",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "225": [
+        {
+            "ip": "45.90.28.237",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "226": [
+        {
+            "ip": "45.90.28.238",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "227": [
+        {
+            "ip": "45.90.28.239",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "228": [
+        {
+            "ip": "45.90.28.24",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "229": [
+        {
+            "ip": "45.90.28.240",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "230": [
+        {
+            "ip": "45.90.28.241",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "231": [
+        {
+            "ip": "45.90.28.242",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "232": [
+        {
+            "ip": "45.90.28.243",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "233": [
+        {
+            "ip": "45.90.28.244",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "234": [
+        {
+            "ip": "45.90.28.245",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "235": [
+        {
+            "ip": "45.90.28.246",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "236": [
+        {
+            "ip": "45.90.28.247",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "237": [
+        {
+            "ip": "45.90.28.248",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "238": [
+        {
+            "ip": "45.90.28.249",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "239": [
+        {
+            "ip": "45.90.28.25",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "240": [
+        {
+            "ip": "45.90.28.250",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "241": [
+        {
+            "ip": "45.90.28.251",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "242": [
+        {
+            "ip": "45.90.28.252",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "243": [
+        {
+            "ip": "45.90.28.253",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "244": [
+        {
+            "ip": "45.90.28.254",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "245": [
+        {
+            "ip": "45.90.28.27",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "246": [
+        {
+            "ip": "45.90.28.28",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "247": [
+        {
+            "ip": "45.90.28.29",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "248": [
+        {
+            "ip": "45.90.28.3",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "249": [
+        {
+            "ip": "45.90.28.31",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "250": [
+        {
+            "ip": "45.90.28.32",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "251": [
+        {
+            "ip": "45.90.28.33",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "252": [
+        {
+            "ip": "45.90.28.34",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "253": [
+        {
+            "ip": "45.90.28.35",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "254": [
+        {
+            "ip": "45.90.28.36",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "255": [
+        {
+            "ip": "45.90.28.38",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "256": [
+        {
+            "ip": "45.90.28.39",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "257": [
+        {
+            "ip": "45.90.28.40",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "258": [
+        {
+            "ip": "45.90.28.41",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "259": [
+        {
+            "ip": "45.90.28.42",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "260": [
+        {
+            "ip": "45.90.28.43",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "261": [
+        {
+            "ip": "45.90.28.44",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "262": [
+        {
+            "ip": "45.90.28.45",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "263": [
+        {
+            "ip": "45.90.28.46",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "264": [
+        {
+            "ip": "45.90.28.47",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "265": [
+        {
+            "ip": "45.90.28.48",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "266": [
+        {
+            "ip": "45.90.28.49",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "267": [
+        {
+            "ip": "45.90.28.5",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "268": [
+        {
+            "ip": "45.90.28.50",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "269": [
+        {
+            "ip": "45.90.28.51",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "270": [
+        {
+            "ip": "45.90.28.52",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "271": [
+        {
+            "ip": "45.90.28.53",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "272": [
+        {
+            "ip": "45.90.28.54",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "273": [
+        {
+            "ip": "45.90.28.57",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "274": [
+        {
+            "ip": "45.90.28.58",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "275": [
+        {
+            "ip": "45.90.28.59",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "276": [
+        {
+            "ip": "45.90.28.6",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "277": [
+        {
+            "ip": "45.90.28.60",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "278": [
+        {
+            "ip": "45.90.28.61",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "279": [
+        {
+            "ip": "45.90.28.62",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "280": [
+        {
+            "ip": "45.90.28.63",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "281": [
+        {
+            "ip": "45.90.28.64",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "282": [
+        {
+            "ip": "45.90.28.65",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "283": [
+        {
+            "ip": "45.90.28.66",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "284": [
+        {
+            "ip": "45.90.28.67",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "285": [
+        {
+            "ip": "45.90.28.68",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "286": [
+        {
+            "ip": "45.90.28.69",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "287": [
+        {
+            "ip": "45.90.28.7",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "288": [
+        {
+            "ip": "45.90.28.70",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "289": [
+        {
+            "ip": "45.90.28.78",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "290": [
+        {
+            "ip": "45.90.28.79",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "291": [
+        {
+            "ip": "45.90.28.8",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "292": [
+        {
+            "ip": "45.90.28.80",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "293": [
+        {
+            "ip": "45.90.28.81",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "294": [
+        {
+            "ip": "45.90.28.82",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "295": [
+        {
+            "ip": "45.90.28.83",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "296": [
+        {
+            "ip": "45.90.28.84",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "297": [
+        {
+            "ip": "45.90.28.85",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "298": [
+        {
+            "ip": "45.90.28.87",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "299": [
+        {
+            "ip": "45.90.28.88",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "300": [
+        {
+            "ip": "45.90.28.89",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "301": [
+        {
+            "ip": "45.90.28.9",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "302": [
+        {
+            "ip": "45.90.28.90",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "303": [
+        {
+            "ip": "45.90.28.92",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "304": [
+        {
+            "ip": "45.90.28.93",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "305": [
+        {
+            "ip": "45.90.28.95",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "306": [
+        {
+            "ip": "45.90.28.96",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "307": [
+        {
+            "ip": "45.90.28.97",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "308": [
+        {
+            "ip": "45.90.28.98",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "309": [
+        {
+            "ip": "45.90.28.99",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "310": [
+        {
+            "ip": "45.90.29.100",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "311": [
+        {
+            "ip": "45.90.29.101",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "312": [
+        {
+            "ip": "45.90.29.103",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "313": [
+        {
+            "ip": "45.90.29.105",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "314": [
+        {
+            "ip": "45.90.29.106",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "315": [
+        {
+            "ip": "45.90.29.107",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "316": [
+        {
+            "ip": "45.90.29.108",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "317": [
+        {
+            "ip": "45.90.29.109",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "318": [
+        {
+            "ip": "45.90.29.110",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "319": [
+        {
+            "ip": "45.90.29.111",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "320": [
+        {
+            "ip": "45.90.29.114",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "321": [
+        {
+            "ip": "45.90.29.115",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "322": [
+        {
+            "ip": "45.90.29.116",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "323": [
+        {
+            "ip": "45.90.29.118",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "324": [
+        {
+            "ip": "45.90.29.119",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "325": [
+        {
+            "ip": "45.90.29.120",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "326": [
+        {
+            "ip": "45.90.29.121",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "327": [
+        {
+            "ip": "45.90.29.122",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "328": [
+        {
+            "ip": "45.90.29.123",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "329": [
+        {
+            "ip": "45.90.29.124",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "330": [
+        {
+            "ip": "45.90.29.125",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "331": [
+        {
+            "ip": "45.90.29.127",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "332": [
+        {
+            "ip": "45.90.29.128",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "333": [
+        {
+            "ip": "45.90.29.129",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "334": [
+        {
+            "ip": "45.90.29.130",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "335": [
+        {
+            "ip": "45.90.29.133",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "336": [
+        {
+            "ip": "45.90.29.134",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "337": [
+        {
+            "ip": "45.90.29.136",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "338": [
+        {
+            "ip": "45.90.29.137",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "339": [
+        {
+            "ip": "45.90.29.139",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "340": [
+        {
+            "ip": "45.90.29.142",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "341": [
+        {
+            "ip": "45.90.29.144",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "342": [
+        {
+            "ip": "45.90.29.145",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "343": [
+        {
+            "ip": "45.90.29.146",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "344": [
+        {
+            "ip": "45.90.29.147",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "345": [
+        {
+            "ip": "45.90.29.148",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "346": [
+        {
+            "ip": "45.90.29.149",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "347": [
+        {
+            "ip": "45.90.29.150",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "348": [
+        {
+            "ip": "45.90.29.151",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "349": [
+        {
+            "ip": "45.90.29.152",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "350": [
+        {
+            "ip": "45.90.29.153",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "351": [
+        {
+            "ip": "45.90.29.154",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "352": [
+        {
+            "ip": "45.90.29.155",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "353": [
+        {
+            "ip": "45.90.29.156",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "354": [
+        {
+            "ip": "45.90.29.158",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "355": [
+        {
+            "ip": "45.90.29.159",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "356": [
+        {
+            "ip": "45.90.29.160",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "357": [
+        {
+            "ip": "45.90.29.161",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "358": [
+        {
+            "ip": "45.90.29.162",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "359": [
+        {
+            "ip": "45.90.29.163",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "360": [
+        {
+            "ip": "45.90.29.165",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "361": [
+        {
+            "ip": "45.90.29.166",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "362": [
+        {
+            "ip": "45.90.29.167",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "363": [
+        {
+            "ip": "45.90.29.168",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "364": [
+        {
+            "ip": "45.90.29.170",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "365": [
+        {
+            "ip": "45.90.29.171",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "366": [
+        {
+            "ip": "45.90.29.172",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "367": [
+        {
+            "ip": "45.90.29.173",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "368": [
+        {
+            "ip": "45.90.29.174",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "369": [
+        {
+            "ip": "45.90.29.176",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "370": [
+        {
+            "ip": "45.90.29.177",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "371": [
+        {
+            "ip": "45.90.29.178",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "372": [
+        {
+            "ip": "45.90.29.179",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "373": [
+        {
+            "ip": "45.90.29.180",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "374": [
+        {
+            "ip": "45.90.29.182",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "375": [
+        {
+            "ip": "45.90.29.183",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "376": [
+        {
+            "ip": "45.90.29.184",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "377": [
+        {
+            "ip": "45.90.29.185",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "378": [
+        {
+            "ip": "45.90.29.186",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "379": [
+        {
+            "ip": "45.90.29.187",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "380": [
+        {
+            "ip": "45.90.29.188",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "381": [
+        {
+            "ip": "45.90.29.189",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "382": [
+        {
+            "ip": "45.90.29.190",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "383": [
+        {
+            "ip": "45.90.29.191",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "384": [
+        {
+            "ip": "45.90.29.192",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "385": [
+        {
+            "ip": "45.90.29.194",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "386": [
+        {
+            "ip": "45.90.29.195",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "387": [
+        {
+            "ip": "45.90.29.196",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "388": [
+        {
+            "ip": "45.90.29.197",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "389": [
+        {
+            "ip": "45.90.29.198",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "390": [
+        {
+            "ip": "45.90.29.199",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "391": [
+        {
+            "ip": "45.90.29.200",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "392": [
+        {
+            "ip": "45.90.29.201",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "393": [
+        {
+            "ip": "45.90.29.202",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "394": [
+        {
+            "ip": "45.90.29.203",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "395": [
+        {
+            "ip": "45.90.29.204",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "396": [
+        {
+            "ip": "45.90.29.206",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "397": [
+        {
+            "ip": "45.90.29.207",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "398": [
+        {
+            "ip": "45.90.29.208",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "399": [
+        {
+            "ip": "45.90.29.209",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "400": [
+        {
+            "ip": "45.90.29.210",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "401": [
+        {
+            "ip": "45.90.29.211",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "402": [
+        {
+            "ip": "45.90.29.212",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "403": [
+        {
+            "ip": "45.90.29.213",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "404": [
+        {
+            "ip": "45.90.29.214",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "405": [
+        {
+            "ip": "45.90.29.215",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "406": [
+        {
+            "ip": "45.90.29.216",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "407": [
+        {
+            "ip": "45.90.29.217",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "408": [
+        {
+            "ip": "45.90.29.218",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "409": [
+        {
+            "ip": "45.90.29.219",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "410": [
+        {
+            "ip": "45.90.29.22",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "411": [
+        {
+            "ip": "45.90.29.220",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "412": [
+        {
+            "ip": "45.90.29.221",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "413": [
+        {
+            "ip": "45.90.29.222",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "414": [
+        {
+            "ip": "45.90.29.223",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "415": [
+        {
+            "ip": "45.90.29.224",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "416": [
+        {
+            "ip": "45.90.29.225",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "417": [
+        {
+            "ip": "45.90.29.227",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "418": [
+        {
+            "ip": "45.90.29.228",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "419": [
+        {
+            "ip": "45.90.29.231",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "420": [
+        {
+            "ip": "45.90.29.232",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "421": [
+        {
+            "ip": "45.90.29.234",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "422": [
+        {
+            "ip": "45.90.29.235",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "423": [
+        {
+            "ip": "45.90.29.236",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "424": [
+        {
+            "ip": "45.90.29.239",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "425": [
+        {
+            "ip": "45.90.29.240",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "426": [
+        {
+            "ip": "45.90.29.241",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "427": [
+        {
+            "ip": "45.90.29.242",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "428": [
+        {
+            "ip": "45.90.29.243",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "429": [
+        {
+            "ip": "45.90.29.244",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "430": [
+        {
+            "ip": "45.90.29.245",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "431": [
+        {
+            "ip": "45.90.29.246",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "432": [
+        {
+            "ip": "45.90.29.248",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "433": [
+        {
+            "ip": "45.90.29.249",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "434": [
+        {
+            "ip": "45.90.29.250",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "435": [
+        {
+            "ip": "45.90.29.251",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "436": [
+        {
+            "ip": "45.90.29.252",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "437": [
+        {
+            "ip": "45.90.29.253",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "438": [
+        {
+            "ip": "45.90.29.254",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "439": [
+        {
+            "ip": "45.90.29.58",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "440": [
+        {
+            "ip": "45.90.29.59",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "441": [
+        {
+            "ip": "45.90.29.60",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "442": [
+        {
+            "ip": "45.90.29.61",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "443": [
+        {
+            "ip": "45.90.29.62",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "444": [
+        {
+            "ip": "45.90.29.63",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "445": [
+        {
+            "ip": "45.90.29.64",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "446": [
+        {
+            "ip": "45.90.29.66",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "447": [
+        {
+            "ip": "45.90.29.67",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "448": [
+        {
+            "ip": "45.90.29.68",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "449": [
+        {
+            "ip": "45.90.29.69",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "450": [
+        {
+            "ip": "45.90.29.70",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "451": [
+        {
+            "ip": "45.90.29.72",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "452": [
+        {
+            "ip": "45.90.29.73",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "453": [
+        {
+            "ip": "45.90.29.74",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "454": [
+        {
+            "ip": "45.90.29.75",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "455": [
+        {
+            "ip": "45.90.29.77",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "456": [
+        {
+            "ip": "45.90.29.79",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "457": [
+        {
+            "ip": "45.90.29.80",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "458": [
+        {
+            "ip": "45.90.29.81",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "459": [
+        {
+            "ip": "45.90.29.82",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "460": [
+        {
+            "ip": "45.90.29.83",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "461": [
+        {
+            "ip": "45.90.29.84",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "462": [
+        {
+            "ip": "45.90.29.85",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "463": [
+        {
+            "ip": "45.90.29.86",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "464": [
+        {
+            "ip": "45.90.29.87",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "465": [
+        {
+            "ip": "45.90.29.88",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "466": [
+        {
+            "ip": "45.90.29.89",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "467": [
+        {
+            "ip": "45.90.29.90",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "468": [
+        {
+            "ip": "45.90.29.91",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "469": [
+        {
+            "ip": "45.90.29.93",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "470": [
+        {
+            "ip": "45.90.29.94",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "471": [
+        {
+            "ip": "45.90.29.95",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "472": [
+        {
+            "ip": "45.90.29.96",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "473": [
+        {
+            "ip": "45.90.29.97",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "474": [
+        {
+            "ip": "45.90.29.98",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "475": [
+        {
+            "ip": "45.90.29.99",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "476": [
+        {
+            "ip": "45.90.30.1",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "477": [
+        {
+            "ip": "45.90.30.10",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "478": [
+        {
+            "ip": "45.90.30.100",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "479": [
+        {
+            "ip": "45.90.30.103",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "480": [
+        {
+            "ip": "45.90.30.105",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "481": [
+        {
+            "ip": "45.90.30.106",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "482": [
+        {
+            "ip": "45.90.30.107",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "483": [
+        {
+            "ip": "45.90.30.108",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "484": [
+        {
+            "ip": "45.90.30.109",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "485": [
+        {
+            "ip": "45.90.30.110",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "486": [
+        {
+            "ip": "45.90.30.111",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "487": [
+        {
+            "ip": "45.90.30.112",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "488": [
+        {
+            "ip": "45.90.30.113",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "489": [
+        {
+            "ip": "45.90.30.114",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "490": [
+        {
+            "ip": "45.90.30.115",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "491": [
+        {
+            "ip": "45.90.30.117",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "492": [
+        {
+            "ip": "45.90.30.118",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "493": [
+        {
+            "ip": "45.90.30.119",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "494": [
+        {
+            "ip": "45.90.30.12",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "495": [
+        {
+            "ip": "45.90.30.120",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "496": [
+        {
+            "ip": "45.90.30.123",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "497": [
+        {
+            "ip": "45.90.30.126",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "498": [
+        {
+            "ip": "45.90.30.13",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "499": [
+        {
+            "ip": "45.90.30.130",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "500": [
+        {
+            "ip": "45.90.30.131",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "501": [
+        {
+            "ip": "45.90.30.132",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "502": [
+        {
+            "ip": "45.90.30.133",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "503": [
+        {
+            "ip": "45.90.30.136",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "504": [
+        {
+            "ip": "45.90.30.140",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "505": [
+        {
+            "ip": "45.90.30.143",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "506": [
+        {
+            "ip": "45.90.30.144",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "507": [
+        {
+            "ip": "45.90.30.147",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "508": [
+        {
+            "ip": "45.90.30.148",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "509": [
+        {
+            "ip": "45.90.30.150",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "510": [
+        {
+            "ip": "45.90.30.153",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "511": [
+        {
+            "ip": "45.90.30.154",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "512": [
+        {
+            "ip": "45.90.30.155",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "513": [
+        {
+            "ip": "45.90.30.156",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "514": [
+        {
+            "ip": "45.90.30.160",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "515": [
+        {
+            "ip": "45.90.30.161",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "516": [
+        {
+            "ip": "45.90.30.163",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "517": [
+        {
+            "ip": "45.90.30.165",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "518": [
+        {
+            "ip": "45.90.30.168",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "519": [
+        {
+            "ip": "45.90.30.169",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "520": [
+        {
+            "ip": "45.90.30.17",
+            "orgName": "unknown",
+            "lat": "unknown",
+            "lon": "unknown",
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "521": [
+        {
+            "ip": "45.90.30.170",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "522": [
+        {
+            "ip": "45.90.30.172",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "523": [
+        {
+            "ip": "45.90.30.174",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "524": [
+        {
+            "ip": "45.90.30.175",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "525": [
+        {
+            "ip": "45.90.30.177",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "526": [
+        {
+            "ip": "45.90.30.178",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "527": [
+        {
+            "ip": "45.90.30.179",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "528": [
+        {
+            "ip": "45.90.30.18",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "529": [
+        {
+            "ip": "45.90.30.182",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "530": [
+        {
+            "ip": "45.90.30.184",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "531": [
+        {
+            "ip": "45.90.30.186",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "532": [
+        {
+            "ip": "45.90.30.187",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "533": [
+        {
+            "ip": "45.90.30.188",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "534": [
+        {
+            "ip": "45.90.30.19",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "535": [
+        {
+            "ip": "45.90.30.190",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "536": [
+        {
+            "ip": "45.90.30.192",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "537": [
+        {
+            "ip": "45.90.30.193",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "538": [
+        {
+            "ip": "45.90.30.194",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "539": [
+        {
+            "ip": "45.90.30.196",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "540": [
+        {
+            "ip": "45.90.30.20",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "541": [
+        {
+            "ip": "45.90.30.202",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "542": [
+        {
+            "ip": "45.90.30.203",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "543": [
+        {
+            "ip": "45.90.30.206",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "544": [
+        {
+            "ip": "45.90.30.208",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "545": [
+        {
+            "ip": "45.90.30.21",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "546": [
+        {
+            "ip": "45.90.30.210",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "547": [
+        {
+            "ip": "45.90.30.211",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "548": [
+        {
+            "ip": "45.90.30.212",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "549": [
+        {
+            "ip": "45.90.30.213",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "550": [
+        {
+            "ip": "45.90.30.215",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "551": [
+        {
+            "ip": "45.90.30.217",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "552": [
+        {
+            "ip": "45.90.30.219",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "553": [
+        {
+            "ip": "45.90.30.222",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "554": [
+        {
+            "ip": "45.90.30.223",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "555": [
+        {
+            "ip": "45.90.30.225",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "556": [
+        {
+            "ip": "45.90.30.227",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "557": [
+        {
+            "ip": "45.90.30.228",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "558": [
+        {
+            "ip": "45.90.30.229",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "559": [
+        {
+            "ip": "45.90.30.23",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "560": [
+        {
+            "ip": "45.90.30.230",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "561": [
+        {
+            "ip": "45.90.30.231",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "562": [
+        {
+            "ip": "45.90.30.233",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "563": [
+        {
+            "ip": "45.90.30.234",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "564": [
+        {
+            "ip": "45.90.30.236",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "565": [
+        {
+            "ip": "45.90.30.237",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "566": [
+        {
+            "ip": "45.90.30.238",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "567": [
+        {
+            "ip": "45.90.30.239",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "568": [
+        {
+            "ip": "45.90.30.24",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "569": [
+        {
+            "ip": "45.90.30.240",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "570": [
+        {
+            "ip": "45.90.30.241",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "571": [
+        {
+            "ip": "45.90.30.242",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "572": [
+        {
+            "ip": "45.90.30.244",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "573": [
+        {
+            "ip": "45.90.30.245",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "574": [
+        {
+            "ip": "45.90.30.246",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "575": [
+        {
+            "ip": "45.90.30.247",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "576": [
+        {
+            "ip": "45.90.30.249",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "577": [
+        {
+            "ip": "45.90.30.25",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "578": [
+        {
+            "ip": "45.90.30.250",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "579": [
+        {
+            "ip": "45.90.30.252",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "580": [
+        {
+            "ip": "45.90.30.254",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "581": [
+        {
+            "ip": "45.90.30.27",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "582": [
+        {
+            "ip": "45.90.30.28",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "583": [
+        {
+            "ip": "45.90.30.3",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "584": [
+        {
+            "ip": "45.90.30.32",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "585": [
+        {
+            "ip": "45.90.30.33",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "586": [
+        {
+            "ip": "45.90.30.35",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "587": [
+        {
+            "ip": "45.90.30.39",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "588": [
+        {
+            "ip": "45.90.30.41",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "589": [
+        {
+            "ip": "45.90.30.44",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "590": [
+        {
+            "ip": "45.90.30.48",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "591": [
+        {
+            "ip": "45.90.30.49",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "592": [
+        {
+            "ip": "45.90.30.52",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "593": [
+        {
+            "ip": "45.90.30.55",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "594": [
+        {
+            "ip": "45.90.30.57",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "595": [
+        {
+            "ip": "45.90.30.58",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "596": [
+        {
+            "ip": "45.90.30.61",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "597": [
+        {
+            "ip": "45.90.30.63",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "598": [
+        {
+            "ip": "45.90.30.66",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "599": [
+        {
+            "ip": "45.90.30.68",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "600": [
+        {
+            "ip": "45.90.30.69",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "601": [
+        {
+            "ip": "45.90.30.7",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "602": [
+        {
+            "ip": "45.90.30.70",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "603": [
+        {
+            "ip": "45.90.30.72",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "604": [
+        {
+            "ip": "45.90.30.73",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "605": [
+        {
+            "ip": "45.90.30.74",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "606": [
+        {
+            "ip": "45.90.30.76",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "607": [
+        {
+            "ip": "45.90.30.77",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "608": [
+        {
+            "ip": "45.90.30.78",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "609": [
+        {
+            "ip": "45.90.30.79",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "610": [
+        {
+            "ip": "45.90.30.8",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "611": [
+        {
+            "ip": "45.90.30.80",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "612": [
+        {
+            "ip": "45.90.30.81",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "613": [
+        {
+            "ip": "45.90.30.82",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "614": [
+        {
+            "ip": "45.90.30.83",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "615": [
+        {
+            "ip": "45.90.30.84",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "616": [
+        {
+            "ip": "45.90.30.85",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "617": [
+        {
+            "ip": "45.90.30.87",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "618": [
+        {
+            "ip": "45.90.30.88",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "619": [
+        {
+            "ip": "45.90.30.89",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "620": [
+        {
+            "ip": "45.90.30.90",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "621": [
+        {
+            "ip": "45.90.30.91",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "622": [
+        {
+            "ip": "45.90.30.92",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "623": [
+        {
+            "ip": "45.90.30.94",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "624": [
+        {
+            "ip": "45.90.30.95",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "625": [
+        {
+            "ip": "45.90.30.97",
+            "orgName": "unknown",
+            "lat": 37.3481,
+            "lon": -122.019,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "626": [
+        {
+            "ip": "45.90.31.114",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "627": [
+        {
+            "ip": "45.90.31.124",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "628": [
+        {
+            "ip": "45.90.31.135",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "629": [
+        {
+            "ip": "45.90.31.183",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "630": [
+        {
+            "ip": "45.90.31.185",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "631": [
+        {
+            "ip": "45.90.31.68",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "632": [
+        {
+            "ip": "45.90.31.74",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "633": [
+        {
+            "ip": "45.90.31.75",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "634": [
+        {
+            "ip": "45.90.31.94",
+            "orgName": "unknown",
+            "lat": 39.7528,
+            "lon": -75.5299,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "635": [
+        {
+            "ip": "5.1.32.211",
+            "orgName": "unknown",
+            "lat": 42.1319,
+            "lon": 3.1263,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "636": [
+        {
+            "ip": "5.11.11.11",
+            "orgName": "unknown",
+            "lat": 51.5134,
+            "lon": -0.117157,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "637": [
+        {
+            "ip": "5.11.11.5",
+            "orgName": "unknown",
+            "lat": 51.5134,
+            "lon": -0.117157,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "638": [
+        {
+            "ip": "5.2.75.75",
+            "orgName": "unknown",
+            "lat": 52.6958,
+            "lon": 6.1956,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "639": [
+        {
+            "ip": "62.149.128.2",
+            "orgName": "unknown",
+            "lat": 43.4631,
+            "lon": 11.8783,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "640": [
+        {
+            "ip": "62.149.128.4",
+            "orgName": "unknown",
+            "lat": 43.4631,
+            "lon": 11.8783,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "641": [
+        {
+            "ip": "64.120.5.251",
+            "orgName": "Leaseweb USA, Inc.",
+            "lat": 47.6034,
+            "lon": -122.3414,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "642": [
+        {
+            "ip": "64.42.181.227",
+            "orgName": "Dedicated.com",
+            "lat": 33.7485,
+            "lon": -84.3871,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "643": [
+        {
+            "ip": "72.240.115.187",
+            "orgName": "unknown",
+            "lat": 41.5798,
+            "lon": -83.666,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "644": [
+        {
+            "ip": "72.240.6.98",
+            "orgName": "unknown",
+            "lat": 41.7052,
+            "lon": -83.6426,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "645": [
+        {
+            "ip": "76.76.10.0",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "646": [
+        {
+            "ip": "76.76.10.1",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "647": [
+        {
+            "ip": "76.76.10.155",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "648": [
+        {
+            "ip": "76.76.10.2",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "649": [
+        {
+            "ip": "76.76.10.32",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "650": [
+        {
+            "ip": "76.76.10.33",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "651": [
+        {
+            "ip": "76.76.10.34",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "652": [
+        {
+            "ip": "76.76.10.36",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "653": [
+        {
+            "ip": "76.76.10.37",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "654": [
+        {
+            "ip": "76.76.10.4",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "655": [
+        {
+            "ip": "76.76.2.0",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "656": [
+        {
+            "ip": "76.76.2.1",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "657": [
+        {
+            "ip": "76.76.2.11",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "658": [
+        {
+            "ip": "76.76.2.2",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "659": [
+        {
+            "ip": "76.76.2.3",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "660": [
+        {
+            "ip": "76.76.2.32",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "661": [
+        {
+            "ip": "76.76.2.33",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "662": [
+        {
+            "ip": "76.76.2.34",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "663": [
+        {
+            "ip": "76.76.2.35",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "664": [
+        {
+            "ip": "76.76.2.36",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "665": [
+        {
+            "ip": "76.76.2.37",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "666": [
+        {
+            "ip": "76.76.2.38",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "667": [
+        {
+            "ip": "76.76.2.44",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "668": [
+        {
+            "ip": "76.76.2.5",
+            "orgName": "CONTROLD INC.",
+            "lat": 43.6465,
+            "lon": -79.4024,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "669": [
+        {
+            "ip": "77.246.57.132",
+            "orgName": "unknown",
+            "lat": -26.2041,
+            "lon": 28.0473,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "670": [
+        {
+            "ip": "77.88.8.1",
+            "orgName": "unknown",
+            "lat": 55.7332,
+            "lon": 37.5833,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "671": [
+        {
+            "ip": "77.88.8.2",
+            "orgName": "unknown",
+            "lat": 55.7332,
+            "lon": 37.5833,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "672": [
+        {
+            "ip": "77.88.8.3",
+            "orgName": "unknown",
+            "lat": 55.7332,
+            "lon": 37.5833,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "673": [
+        {
+            "ip": "77.88.8.7",
+            "orgName": "unknown",
+            "lat": 55.7332,
+            "lon": 37.5833,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "674": [
+        {
+            "ip": "77.88.8.8",
+            "orgName": "unknown",
+            "lat": 55.7332,
+            "lon": 37.5833,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "675": [
+        {
+            "ip": "77.88.8.88",
+            "orgName": "unknown",
+            "lat": 55.7332,
+            "lon": 37.5833,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "676": [
+        {
+            "ip": "78.140.245.13",
+            "orgName": "unknown",
+            "lat": 51.1605,
+            "lon": 71.4704,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "677": [
+        {
+            "ip": "78.140.245.17",
+            "orgName": "unknown",
+            "lat": 51.1605,
+            "lon": 71.4704,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "678": [
+        {
+            "ip": "8.8.4.4",
+            "orgName": "Google LLC",
+            "lat": 39.03,
+            "lon": -77.5,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "679": [
+        {
+            "ip": "8.8.8.8",
+            "orgName": "Google LLC",
+            "lat": 39.03,
+            "lon": -77.5,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "eDNS0"
+        }
+    ],
+    "680": [
+        {
+            "ip": "80.156.145.201",
+            "orgName": "unknown",
+            "lat": 50.1109,
+            "lon": 8.68213,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "681": [
+        {
+            "ip": "80.67.169.12",
+            "orgName": "unknown",
+            "lat": 47.6856,
+            "lon": -2.74723,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "682": [
+        {
+            "ip": "80.67.169.17",
+            "orgName": "unknown",
+            "lat": 47.6856,
+            "lon": -2.74723,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "683": [
+        {
+            "ip": "80.67.169.40",
+            "orgName": "unknown",
+            "lat": 47.6856,
+            "lon": -2.74723,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "684": [
+        {
+            "ip": "81.169.136.222",
+            "orgName": "unknown",
+            "lat": 52.5234,
+            "lon": 13.3224,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "685": [
+        {
+            "ip": "84.232.73.171",
+            "orgName": "unknown",
+            "lat": 38.2914,
+            "lon": -0.611276,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "686": [
+        {
+            "ip": "86.106.74.219",
+            "orgName": "unknown",
+            "lat": 47.5163,
+            "lon": 19.0587,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "687": [
+        {
+            "ip": "9.9.9.11",
+            "orgName": "Quad9",
+            "lat": 47.3733,
+            "lon": 8.53113,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "688": [
+        {
+            "ip": "9.9.9.12",
+            "orgName": "Quad9",
+            "lat": 47.3733,
+            "lon": 8.53113,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "689": [
+        {
+            "ip": "9.9.9.13",
+            "orgName": "Quad9",
+            "lat": 47.3733,
+            "lon": 8.53113,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "690": [
+        {
+            "ip": "9.9.9.9",
+            "orgName": "Quad9",
+            "lat": 37.8767,
+            "lon": -122.2676,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "691": [
+        {
+            "ip": "91.219.215.227",
+            "orgName": "unknown",
+            "lat": 59.9252,
+            "lon": 10.8203,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "692": [
+        {
+            "ip": "94.140.14.14",
+            "orgName": "unknown",
+            "lat": 34.6864,
+            "lon": 33.0519,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "693": [
+        {
+            "ip": "94.140.14.140",
+            "orgName": "unknown",
+            "lat": 34.6864,
+            "lon": 33.0519,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "694": [
+        {
+            "ip": "94.140.14.141",
+            "orgName": "unknown",
+            "lat": 34.6864,
+            "lon": 33.0519,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "695": [
+        {
+            "ip": "94.140.14.49",
+            "orgName": "unknown",
+            "lat": 34.6864,
+            "lon": 33.0519,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "696": [
+        {
+            "ip": "94.140.14.59",
+            "orgName": "unknown",
+            "lat": 34.6864,
+            "lon": 33.0519,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "697": [
+        {
+            "ip": "94.140.15.15",
+            "orgName": "unknown",
+            "lat": 34.6864,
+            "lon": 33.0519,
+            "DoT": "Yes",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "698": [
+        {
+            "ip": "94.198.41.235",
+            "orgName": "unknown",
+            "lat": 48.1449,
+            "lon": 16.2976,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "Other padding"
+        }
+    ],
+    "699": [
+        {
+            "ip": "96.45.45.45",
+            "orgName": "Fortinet Inc.",
+            "lat": 37.3758,
+            "lon": -122.011,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ],
+    "700": [
+        {
+            "ip": "96.45.46.46",
+            "orgName": "Fortinet Inc.",
+            "lat": 37.3758,
+            "lon": -122.011,
+            "DoT": "No",
+            "DoH": "Yes",
+            "eDNS": "No padding"
+        }
+    ]
+}
