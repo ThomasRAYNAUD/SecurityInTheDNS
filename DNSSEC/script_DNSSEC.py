@@ -44,6 +44,10 @@ def main():
             
             concurrent.futures.wait(threads)
 
+    with open("../List/updated_list/DNSSEC_RESOLVERS.txt", 'w') as file2:
+        for resolver in dnssec_ips :
+            file2.write(resolver + "\n")
+
     labels = ['DNSSEC Implémenté', 'DNSSEC Non Implémenté']
     sizes = [len(dnssec_ips), len(non_dnssec_ips)]
     total = len(dnssec_ips) + len(non_dnssec_ips)

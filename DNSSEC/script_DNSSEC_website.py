@@ -3,11 +3,7 @@ import csv
 import concurrent.futures
 import matplotlib.pyplot as plt
 
-<<<<<<< HEAD
-MAX_THREADS = 10
-=======
 MAX_THREADS = 100
->>>>>>> f6fecd55fd2b2e21c7fd53bf1040aaa9b0e841f2
 
 def run_dig_command(website, dnssec_web, non_dnssec_web):
     command = f"dig @1.1.1.1 +dnssec {website}"
@@ -19,13 +15,9 @@ def run_dig_command(website, dnssec_web, non_dnssec_web):
         if "ad" in portion :
             print("DNSSEC implémenté pour le site web:", website)
             dnssec_web.append(website)
-<<<<<<< HEAD
-
-=======
         else :
             print("DNSSEC non implémenté pour le site web: ", website)
             non_dnssec_web.append(website)
->>>>>>> f6fecd55fd2b2e21c7fd53bf1040aaa9b0e841f2
 
     except subprocess.TimeoutExpired:
         print("Timeout ocurred while executing command for", website)
@@ -58,9 +50,11 @@ def main():
     total = len(dnssec_web) + len(non_dnssec_web)
     pourcentages = [len(dnssec_web)/total*100, len(non_dnssec_web)/total*100]
     colors = ['green', 'red']
+    
     rects = plt.bar(labels, sizes, color=colors)
-    plt.ylabel('Nombre de sites web')
-    plt.title("Implémentation de DNSSEC sur les 1000 sites les plus visités selon le ranking d'Alexa")
+    plt.ylabel('Nombre de domaines')
+    plt.title("Implémentation de DNSSEC sur les 1000 domaines les plus visités selon le ranking d'Alexa")
+
     i = 0
     for rect in rects:
         height = rect.get_height()
@@ -71,6 +65,7 @@ def main():
             ha='center', va='bottom')
         i += 1
     plt.show()
+
 
 if __name__ == "__main__":
     print("Starting script")
