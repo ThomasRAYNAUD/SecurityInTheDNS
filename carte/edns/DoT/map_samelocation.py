@@ -1,16 +1,12 @@
 import folium
+from folium.plugins import MarkerCluster
 import json
 
 v = 0
 
 if __name__ == "__main__":
     ma_carte = folium.Map(location=[0, 0], zoom_start=2)
-    
-    # Ajouter un titre à la carte
-    folium.map.Marker(
-        [0, 0], 
-        icon=folium.DivIcon(html='<h4 style="font-size: 16px">Titre de la carte</h4>')
-    ).add_to(ma_carte)
+    marker_cluster = MarkerCluster().add_to(ma_carte)  # Créer un groupe de marqueurs
     
     with open('nouveau_fichier_json.json', 'r') as f:
         contenu = json.load(f)
@@ -22,11 +18,11 @@ if __name__ == "__main__":
                     lat = j['lat']
                     lon = j['lon']
                     if j['eDNS'] == "eDNS0":
-                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='green')).add_to(ma_carte)
+                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='green')).add_to(marker_cluster)
                     elif j['eDNS'] == "No padding":
-                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='red')).add_to(ma_carte)
+                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='red')).add_to(marker_cluster)
                     elif j['eDNS'] == "Other padding":
-                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='blue')).add_to(ma_carte)
+                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='blue')).add_to(marker_cluster)
                 else:
                     v += 1
                     

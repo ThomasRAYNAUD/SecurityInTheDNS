@@ -52,14 +52,14 @@ if __name__ == "__main__":
         contenu = json.load(f)
         for i in contenu:
             for j in contenu[i]:
-                if j['orgName'] == "Cloudflare, Inc.":
+                if j['orgName'] == "CLOUDFLARENET":
                     nb_Cloudflare_server += 1
                     nb_Cloudflare_DoT += 1 if j['DoT'] == "Yes" and j['DoH'] == "No" else 0
                     nb_Cloudflare_DoH += 1 if j['DoH'] == "Yes" and j['DoT'] == "No" else 0
                     nb_Cloudflare_DoT_DoH += 1 if j['DoT'] == "Yes" and j['DoH'] == "Yes" else 0
                     nb_Cloudflare_non += 1 if j['DoT'] == "No" and j['DoH'] == "No" else 0
 
-                elif j['orgName'] == "Google LLC":
+                elif j['orgName'] == "GOOGLE":
                     nb_Google_server += 1
                     nb_Google_DoT += 1 if j['DoT'] == "Yes" and j['DoH'] == "No" else 0
                     nb_Google_DoH += 1 if j['DoH'] == "Yes" and j['DoT'] == "No" else 0
