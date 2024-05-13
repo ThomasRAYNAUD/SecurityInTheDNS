@@ -20,7 +20,7 @@ if __name__ == "__main__":
                     elif j['DoT'] == "No" and j['DoH'] == "Yes":
                         folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: No\nDoH: Yes", icon=folium.Icon(color='red')).add_to(ma_carte)
                     else:
-                        folium.CircleMarker([lat, lon], radius=5, color='yellow', fill=True,popup=f"{ip}\n{orgName}\nDoT: No\nDoH: Yes", fill_color='yellow').add_to(ma_carte)
+                        folium.CircleMarker([lat, lon], radius=5, color='yellow', fill=True,popup=f"{ip}\n{orgName}\nDoT: No\nDoH: No", fill_color='yellow').add_to(ma_carte)
                 else:
                     v += 1
     legende = f"""
@@ -43,4 +43,4 @@ if __name__ == "__main__":
     """
 
     ma_carte.get_root().html.add_child(folium.Element(legende))
-    ma_carte.save('carte_v2.html')
+    ma_carte.save('map.html')
