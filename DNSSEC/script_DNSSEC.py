@@ -50,8 +50,8 @@ def main():
     pourcentages = [len(dnssec_ips)/total*100, len(non_dnssec_ips)/total*100]
     colors = ['green', 'red']
     rects = plt.bar(labels, sizes, color=colors)
-    plt.ylabel('Nombre de IPs')
-    plt.title('Implémentation de DNSSEC sur les différents serveurs')
+    plt.ylabel('Nombre de résolveurs')
+    plt.title('Implémentation de DNSSEC sur les différents résolveurs')
     i = 0
     for rect in rects:
         height = rect.get_height()
