@@ -1,0 +1,13 @@
+{
+    "1": [
+        {
+            "ip": "1.0.0.19",
+            "orgName": "CLOUDFLARENET",
+            "lat": -27.4766,
+            "lon": 153.0166,
+            "DoT": "Yes",
+            "DoH": "No",
+            "DNSSEC": "No"
+        }
+    ]
+}
