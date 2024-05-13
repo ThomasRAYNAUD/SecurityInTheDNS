@@ -5,7 +5,7 @@ v = 0
 
 if __name__ == "__main__":
     ma_carte = folium.Map(location=[0, 0], zoom_start=2)
-    with open('nouveau_fichier_json.json', 'r') as f:
+    with open('carte/edns/DoT/infos_resolveurs.json', 'r') as f:
         contenu = json.load(f)
         for i in contenu:
             for j in contenu[i]:
@@ -41,4 +41,4 @@ if __name__ == "__main__":
     </div>
     """
     ma_carte.get_root().html.add_child(folium.Element(legende))
-    ma_carte.save('basic_map.html')
+    ma_carte.save('carte/edns/DoT/basic_map.html')

@@ -12,7 +12,7 @@ if __name__ == "__main__":
         icon=folium.DivIcon(html='<h4 style="font-size: 16px">Titre de la carte</h4>')
     ).add_to(ma_carte)
     
-    with open('nouveau_fichier_json.json', 'r') as f:
+    with open('carte/edns/DoT/infos_resolveurs.json', 'r') as f:
         contenu = json.load(f)
         for i in contenu:
             for j in contenu[i]:
@@ -46,4 +46,4 @@ if __name__ == "__main__":
     </div>
     """
     ma_carte.get_root().html.add_child(folium.Element(legende))
-    ma_carte.save('carte_v2.html')
+    ma_carte.save('carte/edns/DoT/map_samelocation.html')
