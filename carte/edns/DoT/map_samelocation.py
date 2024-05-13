@@ -8,7 +8,7 @@ if __name__ == "__main__":
     ma_carte = folium.Map(location=[0, 0], zoom_start=2)
     marker_cluster = MarkerCluster().add_to(ma_carte)  # Créer un groupe de marqueurs
     
-    with open('nouveau_fichier_json.json', 'r') as f:
+    with open('carte/edns/DoT/infos_resolveurs.json', 'r') as f:
         contenu = json.load(f)
         for i in contenu:
             for j in contenu[i]:
@@ -42,4 +42,4 @@ if __name__ == "__main__":
     </div>
     """
     ma_carte.get_root().html.add_child(folium.Element(legende))
-    ma_carte.save('carte_v2.html')
+    ma_carte.save('carte/edns/DoT/map_samelocation.html')
