@@ -4,24 +4,23 @@ import json
 if __name__ == "__main__":
     ma_carte = folium.Map(location=[0, 0], zoom_start=2)
     v = 0
-    with open('donnees.json', 'r') as f:
+    with open('./donnees.json', 'r') as f:
         contenu = json.load(f)
         for i in contenu:
             for j in contenu[i]:
                 if j['lat'] != 'unknown' or j['lon'] != 'unknown':
                     ip = j['ip']
                     orgName = j['orgName']
-                    org = j['org']
                     lat = j['lat']
                     lon = j['lon']
                     if j['DoT'] == "Yes" and j['DoH'] == "Yes":
-                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\n{org}\nDoT: Yes\nDoH: Yes", icon=folium.Icon(color='green')).add_to(ma_carte)
+                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: Yes\nDoH: Yes", icon=folium.Icon(color='green')).add_to(ma_carte)
                     elif j['DoT'] == "Yes" and j['DoH'] == "No":
-                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\n{org}\nDoT: Yes\nDoH: No", icon=folium.Icon(color='blue')).add_to(ma_carte)
+                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: Yes\nDoH: No", icon=folium.Icon(color='blue')).add_to(ma_carte)
                     elif j['DoT'] == "No" and j['DoH'] == "Yes":
-                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\n{org}\nDoT: No\nDoH: Yes", icon=folium.Icon(color='red')).add_to(ma_carte)
+                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: No\nDoH: Yes", icon=folium.Icon(color='red')).add_to(ma_carte)
                     else:
-                        folium.CircleMarker([lat, lon], radius=5, color='yellow', fill=True, fill_color='yellow').add_to(ma_carte)
+                        folium.CircleMarker([lat, lon], radius=5, color='yellow', fill=True,popup=f"{ip}\n{orgName}\nDoT: No\nDoH: Yes", fill_color='yellow').add_to(ma_carte)
                 else:
                     v += 1
     legende = f"""
