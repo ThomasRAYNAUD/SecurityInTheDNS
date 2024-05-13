@@ -1,6 +1,4 @@
 import subprocess
-import threading
-
 import concurrent.futures
 import matplotlib.pyplot as plt
 
@@ -16,7 +14,8 @@ def run_dig_command(ip_address, dnssec_ips, non_dnssec_ips):
         if "ad" in portion :
             print("DNSSEC implémenté pour l'adresse IP:", ip_address)
             dnssec_ips.append(ip_address)
-        else : 
+            test +=1
+        else :
             print("DNSSEC non implémenté pour l'adresse IP: ", ip_address)
             non_dnssec_ips.append(ip_address)
 
@@ -47,11 +46,23 @@ def main():
 
     labels = ['DNSSEC Implémenté', 'DNSSEC Non Implémenté']
     sizes = [len(dnssec_ips), len(non_dnssec_ips)]
+    total = len(dnssec_ips) + len(non_dnssec_ips)
+    pourcentages = [len(dnssec_ips)/total*100, len(non_dnssec_ips)/total*100]
     colors = ['green', 'red']
-    explode = (0.1, 0) 
-    plt.hist(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
-    plt.axis('equal') 
-    plt.title('Implémentation de DNSSEC')
+
+    rects = plt.bar(labels, sizes, color=colors)
+    plt.ylabel('Nombre de résolveurs')
+    plt.title('Implémentation de DNSSEC sur les différents résolveurs')
+    i = 0
+    for rect in rects:
+        height = rect.get_height()
+        plt.annotate(f'{pourcentages[i]:.1f}%',
+            xy=(rect.get_x() + rect.get_width() / 2, height),
+            xytext=(0, 3),  # Décalage de 3 points au-dessus de la barre
+            textcoords="offset points",
+            ha='center', va='bottom')
+        i += 1
+
     plt.show()
 
 if __name__ == "__main__":
