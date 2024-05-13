@@ -5,10 +5,8 @@ if __name__ == "__main__":
     with open('../donnees.json', 'r') as f:
         contenu = json.load(f)
     
-    # Créer un dictionnaire pour stocker les données formatées
     new_data = {}
     
-    # Initialiser un compteur pour les clés du nouveau JSON
     count = 1
     
     for i in contenu:
@@ -22,9 +20,10 @@ if __name__ == "__main__":
                             eDNS = "eDNS0"
                         elif row[1] == "no padding":
                             eDNS = "No padding"
-                        else:
+                        elif row[1] == "other padding":
                             eDNS = "Other padding"
                         
+                        # Créer un dictionnaire pour chaque entrée avec les données formatées
                         data_item = {
                             "ip": j['ip'],
                             "orgName": j['orgName'],
