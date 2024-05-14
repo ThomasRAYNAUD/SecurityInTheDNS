@@ -4,6 +4,7 @@ import json
 if __name__ == "__main__":
     ma_carte = folium.Map(location=[0, 0], zoom_start=2)
     v = 0
+    total = 0
     with open('./donnees.json', 'r') as f:
         contenu = json.load(f)
         for i in contenu:
@@ -15,12 +16,16 @@ if __name__ == "__main__":
                     lon = j['lon']
                     if j['DoT'] == "Yes" and j['DoH'] == "Yes":
                         folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: Yes\nDoH: Yes", icon=folium.Icon(color='green')).add_to(ma_carte)
+                        total += 1
                     elif j['DoT'] == "Yes" and j['DoH'] == "No":
                         folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: Yes\nDoH: No", icon=folium.Icon(color='blue')).add_to(ma_carte)
+                        total += 1
                     elif j['DoT'] == "No" and j['DoH'] == "Yes":
                         folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: No\nDoH: Yes", icon=folium.Icon(color='red')).add_to(ma_carte)
+                        total += 1
                     else:
                         folium.CircleMarker([lat, lon], radius=5, color='yellow', fill=True,popup=f"{ip}\n{orgName}\nDoT: No\nDoH: No", fill_color='yellow').add_to(ma_carte)
+                        total += 1
                 else:
                     v += 1
     legende = f"""
@@ -39,6 +44,7 @@ if __name__ == "__main__":
             <span style="display: inline-block; width: 12px; height: 12px; background-color: rgb(248, 248, 0); border-radius: 50%; margin-right: 5px;"></span> No DoT or DoH
         </div>
         <div style="margin-top: 10px; color: #888;">Number of resolvers without coordinates: {v}</div>
+        <div style="margin-top: 10px; color: #888;">Total number of resolvers: 9696</div>
     </div>
     """
 
