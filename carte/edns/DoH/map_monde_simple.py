@@ -15,12 +15,12 @@ if __name__ == "__main__":
                     lat = j['lat']
                     lon = j['lon']
                     if j['eDNS'] == "eDNS0":
-                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: {j['DoT']}\nDoH: {j['DoH']}", icon=folium.Icon(color='green')).add_to(ma_carte)
-                    elif j['eDNS'] == "no padding":
-                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: {j['DoT']}\nDoH: {j['DoH']}", icon=folium.Icon(color='blue')).add_to(ma_carte)
-                    elif j['eDNS'] == "other padding":
-                        folium.Marker([lat, lon], popup=f"{ip}\n{orgName}\nDoT: {j['DoT']}\nDoH: {j['DoH']}", icon=folium.Icon(color='red')).add_to(ma_carte)
-                        
+                        folium.Marker([lat, lon],popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='green')).add_to(ma_carte)
+                    elif j['eDNS'] == "No padding":
+                        folium.Marker([lat, lon],popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='red')).add_to(ma_carte)
+                    elif j['eDNS'] == "Other padding":
+                        folium.Marker([lat, lon],popup=f"{ip}\n{orgName}\n", icon=folium.Icon(color='blue')).add_to(ma_carte)
+
                 else:
                     v += 1
     legende = f"""
@@ -30,15 +30,13 @@ if __name__ == "__main__":
             <span style="display: inline-block; width: 12px; height: 12px; background-color: rgb(112, 173, 37) ; border-radius: 50%; margin-right: 5px;"></span> EDNS(0) Padding
         </div>
         <div style="margin-bottom: 5px;">
-            <span style="display: inline-block; width: 12px; height: 12px; background-color: rgb(54, 161, 208); border-radius: 50%; margin-right: 5px;"></span> Other Padding
+            <span style="display: inline-block; width: 12px; height: 12px; background-color:rgb(204, 62, 42) ; border-radius: 50%; margin-right: 5px;"></span> No padding
         </div>
         <div style="margin-bottom: 5px;">
-            <span style="display: inline-block; width: 12px; height: 12px; background-color: rgb(204, 62, 42); border-radius: 50%; margin-right: 5px;"></span> No Padding
+            <span style="display: inline-block; width: 12px; height: 12px; background-color: rgb(54, 161, 208); border-radius: 50%; margin-right: 5px;"></span> Other Padding
         </div>
         <div style="margin-top: 10px; color: #888;">Number of resolvers without coordinates: {v}</div>
-
     </div>
     """
     ma_carte.get_root().html.add_child(folium.Element(legende))
-    ma_carte.save('./test.html')
-    
+    ma_carte.save('basic_map.html')
