@@ -7,12 +7,6 @@ v = 0
 if __name__ == "__main__":
     ma_carte = folium.Map(location=[0, 0], zoom_start=2)
     
-    # Ajouter un titre à la carte
-    folium.map.Marker(
-        [0, 0], 
-        icon=folium.DivIcon(html='<h4 style="font-size: 16px">Titre de la carte</h4>')
-    ).add_to(ma_carte)
-    
     # Création d'un groupe de clusters de marqueurs
     marker_cluster = MarkerCluster().add_to(ma_carte)
     
@@ -53,6 +47,7 @@ if __name__ == "__main__":
             <span style="display: inline-block; width: 12px; height: 12px; background-color: rgb(248, 248, 0); border-radius: 50%; margin-right: 5px;"></span> No DoT or DoH
         </div>
         <div style="margin-top: 10px; color: #888;">Number of resolvers without coordinates: {v}</div>
+        <div style="margin-top: 10px; color: #888;">Total number of resolvers: 9696</div>
     </div>
     """
     ma_carte.get_root().html.add_child(folium.Element(legende))
