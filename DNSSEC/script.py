@@ -1,69 +1,54 @@
-import subprocess
 import json
-import re
+import matplotlib.pyplot as plt
 
-
-def whois(ip_address):
-    command = f"whois {ip_address}"
-    try:
-        result = subprocess.run(command, shell=True, capture_output=True, text=True, timeout=3)
-        return result.stdout.strip()
-    except subprocess.TimeoutExpired:
-        print(f"Timeout expired while fetching WHOIS information for {ip_address}")
-        return "Unknown"
-    except Exception as e:
-        print(f"Error fetching WHOIS information for {ip_address}: {e}")
-        return "Unknown"
-
-def traitement_whois(whois_output,i,j):
-    orgName_match = re.search(r'org-name:\s+([^\n\r]+)', whois_output, re.IGNORECASE)
-    orgName = orgName_match.group(1) if orgName_match else "unknown"
-    
-    donnees = {"ip": j['ip'],
-               "orgName": j['orgName'],
-               "lat": j['lat'],
-               "lon": j['lon']
-               }
-
-    try:
-        with open('./donnees.json', 'r') as f:
-            contenu = json.load(f)
-    except FileNotFoundError:
-        contenu = {}
-    except json.decoder.JSONDecodeError as e:
-        print(f"Error decoding JSON: {e}")
-        contenu = {}
-    contenu[str(i)] = [donnees]
-
-    with open('./donnees.json', 'w') as f:
-        json.dump(contenu, f, indent=4)
-    
-    return "OK"
-
-with open("../List/updated_list/DNSSEC_RESOLVERS1.txt", 'r') as dnssec_file:
-        dnssec_ips = set(dnssec_file.read().splitlines())
+nb_Cloudflare = 0
+nb_Google_server = 0
+nb_atnt_server = 0
+nb_amazon_server = 0
+nb_level3_server = 0
+nb_cisco_server = 0
+others = 0
 
 
 if __name__ == "__main__":
-    with open('donnees_dnssec.json', 'r') as f:
+    nb_DNSSEC = 0
+    with open("../remplirJSON/nellly/DNSSEC.json", 'r') as f:
         contenu = json.load(f)
         for i in contenu:
             for j in contenu[i]:
-                print(j['ip'])
-                donnees = {"ip": j['ip'],
-                               "orgName": j['orgName'],
-                               "lat": j['lat'],
-                               "lon": j['lon']
-                               }
-                try:
-                    with open('./donnees.json', 'r') as f:
-                        contenu = json.load(f)
-                except FileNotFoundError:
-                    contenu = {}
-                except json.decoder.JSONDecodeError as e:
-                    print(f"Error decoding JSON: {e}")
-                    contenu = {}
-                contenu[str(i)] = [donnees]
+                if j['DNSSEC'] == "Yes":
+                    nb_DNSSEC += 1
+                    if j['orgName'] == "Cloudflare, Inc.":
+                        nb_Cloudflare += 1
+                    elif j['orgName'] == "Google LLC":
+                        nb_Google_server += 1
+                    elif j['orgName'] == "AT&T Corp.":
+                        nb_atnt_server += 1
+                    elif j['orgName'] == "Amazon Technologies Inc.":
+                        nb_amazon_server += 1
+                    elif j['orgName'] == "Level 3 Parent, LLC":
+                        nb_level3_server += 1
+                    elif j['orgName'] == "Cisco OpenDNS, LLC":
+                        nb_cisco_server += 1
+                    else :
+                        others += 1
+    
+    labels = ["Cloudflare, Inc.", "Google LLC", "AT&T Corp.", "Amazon Technologies Inc.", "Level 3 Parent, LLC", "Cisco OpenDNS, LLC"]
+    sizes = [nb_Cloudflare, nb_Google_server, nb_atnt_server, nb_amazon_server, nb_level3_server, nb_cisco_server]
+    pourcentages = [nb_Cloudflare/nb_DNSSEC*100, nb_Google_server/nb_DNSSEC*100, nb_atnt_server/nb_DNSSEC*100, nb_amazon_server/nb_DNSSEC*100, nb_level3_server/nb_DNSSEC*100, nb_cisco_server/nb_DNSSEC*100]
+    colors = ['cornflowerblue', 'cornflowerblue','cornflowerblue','cornflowerblue','cornflowerblue','cornflowerblue']
 
-                with open('./donnees.json', 'w') as f:
-                    json.dump(contenu, f, indent=4)
+    rects = plt.bar(labels, sizes, color=colors)
+    plt.ylabel('Nombre de résolveurs')
+    plt.title('Organismes des différents résolveurs implémentant DNSSEC')
+    i = 0
+    for rect in rects:
+        height = rect.get_height()
+        plt.annotate(f'{pourcentages[i]:.1f}%',
+            xy=(rect.get_x() + rect.get_width() / 2, height),
+            xytext=(0, 3),  # Décalage de 3 points au-dessus de la barre
+            textcoords="offset points",
+            ha='center', va='bottom')
+        i += 1
+
+    plt.show()
