@@ -2,7 +2,7 @@ import csv
 import json
 
 if __name__ == "__main__":
-    with open('../donnees.json', 'r') as f:
+    with open('carte/DoH_DoT/donnees.json', 'r') as f:
         contenu = json.load(f)
     
     new_data = {}
@@ -12,7 +12,7 @@ if __name__ == "__main__":
     for i in contenu:
         for j in contenu[i]:
             ip = j['ip']
-            with open('export_ip_doh.csv', 'r') as fichier_csv:
+            with open('carte/edns/DoH/export_ip_doh.csv', 'r') as fichier_csv:
                 reader = csv.reader(fichier_csv)
                 for row in reader:
                     if row[0] == ip:
@@ -41,5 +41,5 @@ if __name__ == "__main__":
                         count += 1
 
     # Écrire le nouveau JSON dans un fichier
-    with open('nouveau_fichier_json.json', 'w') as json_file:
+    with open('carte/edns/DoH/infos_resolveurs.json', 'w') as json_file:
         json.dump(new_data, json_file, indent=4)
